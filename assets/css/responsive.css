@@ -35,6 +35,12 @@
   :root {
     --section-spacing: 70px;
   }
+  header ul li:not(:last-child) a {
+    margin-right: 25px;
+  }
+  .hero-content {
+    max-width: 600px;
+  }
 }
 @media (max-width: 1199px) {
   header ul li a {

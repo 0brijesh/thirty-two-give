@@ -618,6 +618,7 @@ header ul li:not(:last-child) a{
 }
 .hero-content{
   max-width: 640px;
+  padding-right: 50px;
 }
 .hero-content p{
   font-weight: 500;
