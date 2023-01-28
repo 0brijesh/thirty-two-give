@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index page | Thirty 2 Give</title>
+    <link type="text/css" rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/aos.css">
+    <link type="text/css" rel="stylesheet" href="./assets/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/responsive.css" />
+</head>
+
+<body>
+    <!-- header start -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex align-items-center header-col">
+                    <a href="index.html"><img src="./assets/images/logo/logo.png" class="img-fluid header-logo"
+                            alt="" /></a>
+                    <div class="d-lg-none mobile-menu-ico ms-3 ms-sm-4">
+                        <img src="./assets/images/logo/logo.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="d-flex align-items-center menu-list">
+                        <ul class="flex-wrap align-items-center list-menu  d-none d-lg-flex">
+                            <li>
+                                <a href="#home" class="position-relative active-page">Home</a>
+                            </li>
+                            <li>
+                                <a href="#about" class="position-relative">About</a>
+                            </li>
+                            <li>
+                                <a href="#project-details" class="position-relative">Project Details</a>
+                            </li>
+                            <li>
+                                <a href="#location" class="position-relative">Location</a>
+                            </li>
+                            <li>
+                                <a href="#gallery" class="position-relative">Gallery</a>
+                            </li>
+                            <li>
+                                <a href="#site-plans" class="position-relative">Site & Floor Plans</a>
+                            </li>
+                            <li>
+                                <a href="#registration" class="position-relative">Registration</a>
+                            </li>
+                        </ul>
+                        <!-- <button class="primary-btn ms-md-3 ripple-effect-btn">Contact
+                            Us</button> -->
+                    </div>
+                    <div class="ms-auto menu-social-options-list">
+                        <a href="javascript:void(0)">
+                            <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-path">
+                                <path d="M19.1666 0.500079C18.3686 1.06298 17.485 1.4935 16.5499 1.77508C16.048 1.198 15.381 0.788989 14.6391 0.603351C13.8972 0.417713 13.1162 0.464409 12.4017 0.737123C11.6871 1.00984 11.0736 1.49541 10.6441 2.12818C10.2145 2.76094 9.98967 3.51036 9.99992 4.27508V5.10841C8.53545 5.14639 7.08431 4.82159 5.77576 4.16295C4.4672 3.50431 3.34185 2.53228 2.49992 1.33341C2.49992 1.33341 -0.833415 8.83341 6.66658 12.1667C4.95036 13.3317 2.90588 13.9159 0.833252 13.8334C8.33325 18.0001 17.4999 13.8334 17.4999 4.25008C17.4991 4.01796 17.4768 3.78641 17.4333 3.55841C18.2838 2.71966 18.8839 1.66067 19.1666 0.500079Z"/>
+                            </svg>                                
+                        </a>
+                        <a href="javascript:void(0)">
+                            <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-path">
+                                <path d="M0 6.49997H3.125V3.99997C3.125 0.249965 5.625 -0.375035 10 0.249965V3.37497C7.5 3.37497 6.875 3.37497 6.875 5.24997V6.49997H10L9.375 10.25H6.875V17.75H3.125V10.25H0V6.49997Z"/>
+                            </svg>                                                              
+                        </a>
+                        <a href="javascript:void(0)">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-path">
+                                <path d="M15.9958 15.9999V15.9993H15.9998V10.1313C15.9998 7.26064 15.3818 5.04932 12.0258 5.04932C10.4125 5.04932 9.32984 5.93465 8.88784 6.77397H8.84117V5.31732H5.65918V15.9993H8.9725V10.71C8.9725 9.3173 9.2365 7.97064 10.9612 7.97064C12.6605 7.97064 12.6858 9.55996 12.6858 10.7993V15.9999H15.9958Z"/>
+                                <path d="M0.26416 5.31787H3.58148V15.9998H0.26416V5.31787Z"/>
+                                <path d="M1.92133 0C0.860664 0 0 0.860662 0 1.92132C0 2.98198 0.860664 3.86065 1.92133 3.86065C2.98199 3.86065 3.84266 2.98198 3.84266 1.92132C3.84199 0.860662 2.98133 0 1.92133 0V0Z"/>
+                            </svg>                                                               
+                        </a>
+                        <a href="javascript:void(0)">
+                            <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-path">
+                                <path d="M16.9525 2.41492C17.3333 3.89992 17.3333 6.99992 17.3333 6.99992C17.3333 6.99992 17.3333 10.0999 16.9525 11.5849C16.7408 12.4058 16.1216 13.0516 15.3375 13.2699C13.9133 13.6666 8.99996 13.6666 8.99996 13.6666C8.99996 13.6666 4.08913 13.6666 2.66246 13.2699C1.87496 13.0483 1.25663 12.4033 1.04746 11.5849C0.666626 10.0999 0.666626 6.99992 0.666626 6.99992C0.666626 6.99992 0.666626 3.89992 1.04746 2.41492C1.25913 1.59409 1.87829 0.948252 2.66246 0.729918C4.08913 0.333252 8.99996 0.333252 8.99996 0.333252C8.99996 0.333252 13.9133 0.333252 15.3375 0.729918C16.125 0.951585 16.7433 1.59659 16.9525 2.41492ZM7.33329 9.91658L12.3333 6.99992L7.33329 4.08325V9.91658Z"/>
+                            </svg>                                                             
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="mobile-menu-wrap d-lg-none">
+        <div class="close-ico d-flex align-items-center justify-content-center ms-auto bg-white">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                <path fill="none" d="M0 0h24v24H0z" />
+                <path
+                    d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z" />
+            </svg>
+        </div>
+        <ul class="flex-wrap align-items-center list-menu">
+            <li>
+                <a href="#home" class="position-relative active-page">Home</a>
+            </li>
+            <li>
+                <a href="#about" class="position-relative">About</a>
+            </li>
+            <li>
+                <a href="#project-details" class="position-relative">Project Details</a>
+            </li>
+            <li>
+                <a href="#location" class="position-relative">Location</a>
+            </li>
+            <li>
+                <a href="#gallery" class="position-relative">Gallery</a>
+            </li>
+            <li>
+                <a href="#site-plans" class="position-relative">Site & Floor Plans</a>
+            </li>
+            <li>
+                <a href="#registration" class="position-relative">Registration</a>
+            </li>
+        </ul>
+    </div>
+    <!-- header end -->
+    <!-- hero section start -->
+    <section class="hero-section position-relative">
+        <div class="container position-relative z-1">
+            <div class="row">
+                <div class="col-12 d-flex align-items-center hero-content-col">
+                    <div class="hero-content">
+                        <h1 class="heading-title big-heading-title mb-3">
+                            Welcome to Thirty2give Virtual Engagement Platform
+                        </h1>
+                        <p>"Pay it Forward by Paying it Back"</p>
+                        <button class="primary-btn  ripple-effect-btn mt-5">Book a Demo</button>
+                    </div>
+                    <div class="hero-bg-img ms-auto">
+                        <img src="./assets/images/bg/hero-img0.png" class="img-fluid" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hero section end -->
+    <!-- Platform Benefits start -->
+    <section class="platform-benefits section-mid-py light-prime-primary-color-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex align-items-center">
+                        <div class="platform-benefits-content">
+                            <h2 class="heading-title small-heading-title mb-3">
+                                Platform <span class="text-primary">Benefits</span>
+                            </h2>
+                            <p class="heading-label-p mb-0">Are you a small to medium business, educational institution or a non profit organization and your employees/members are remote? Improve your engagement with our virtual app.</p>
+                        </div>
+                        <button class="primary-btn ms-auto ripple-effect-btn">Learn More</button>
+                    </div>
+                    <div class="platform-benefits-grid d-grid">
+                        <div class="platform-benefits-col">
+                            <img src="./assets/images/icons/pf-ico0.svg" class="img-fluid" alt="" />
+                            <h4 class="fw-600">Remote Engagement 24/7 365</h4>
+                            <p class="mb-0 fw-500">Our mobile app provides unlimited access for your employees or members to engage and feel connected to your organization. </p>
+                        </div>
+                        <div class="platform-benefits-col">
+                            <img src="./assets/images/icons/pf-ico1.svg" class="img-fluid" alt="" />
+                            <h4 class="fw-600">NO IT resources required</h4>
+                            <p class="mb-0 fw-500">Our closed app is safe, secured and requires no setup or maintenance by your IT staff.</p>
+                        </div>
+                        <div class="platform-benefits-col">
+                            <img src="./assets/images/icons/pf-ico2.svg" class="img-fluid" alt="" />
+                            <h4 class="fw-600">Connect seamlessly</h4>
+                            <p class="mb-0 fw-500">Whether it's an employee to leader, peer to peer, mentor to mentee, or advisor to protégé communication, this B2B app provides a secure environment to connect.</p>
+                        </div>
+                        <div class="platform-benefits-col">
+                            <img src="./assets/images/icons/pf-ico3.svg" class="img-fluid" alt="" />
+                            <h4 class="fw-600">Model flexibility</h4>
+                            <p class="mb-0 fw-500">You choose how the relationship is established. Clients may choose to have users connect through an administrator or self select by querying the user database.</p>
+                        </div>
+                        <div class="platform-benefits-col">
+                            <img src="./assets/images/icons/pf-ico4.svg" class="img-fluid" alt="" />
+                            <h4 class="fw-600">You control access</h4>
+                            <p class="mb-0 fw-500">The Thirty2give administrative portal will give the clients full control to link, add or remove users to promote the construction of powerful mentoring/leader communication trees.</p>
+                        </div>
+                        <div class="platform-benefits-col">
+                            <img src="./assets/images/icons/pf-ico5.svg" class="img-fluid" alt="" />
+                            <h4 class="fw-600">Visibility</h4>
+                            <p class="mb-0 fw-500">Collect statistics and ratings to gauge the health of your relationship/engagement program to continuously improve.</p>
+                        </div>
+                        <div class="platform-benefits-col">
+                            <img src="./assets/images/icons/pf-ico6.svg" class="img-fluid" alt="" />
+                            <h4 class="fw-600">Connect globally</h4>
+                            <p class="mb-0 fw-500">From small towns to big cities across the globe you'll be connected to a mentor or mentee and can communicate at a time that best suits your life schedule.</p>
+                        </div>
+                        <div class="platform-benefits-col">
+                            <img src="./assets/images/icons/pf-ico7.svg" class="img-fluid" alt="" />
+                            <h4 class="fw-600">Relationship Terms</h4>
+                            <p class="mb-0 fw-500">In the B2B model, client organization will determine the length of user relationships. In the forthcoming B2C model, users will be in total control. They can end <a href="javascript:void(0)" class="text-decoration-underline-ani position-relative">Read More</a></p>
+                        </div>
+                        <div class="platform-benefits-col">
+                            <img src="./assets/images/icons/pf-ico8.svg" class="img-fluid" alt="" />
+                            <h4 class="fw-600">Expertise</h4>
+                            <p class="mb-0 fw-500">Maximize internal expertise to share across your entire organization to grow the next group of leaders. In the B2B or B2C model, users have access to a public <a href="javascript:void(0)" class="text-decoration-underline-ani position-relative">Read More</a></p>
+                        </div>
+                        <div class="platform-benefits-col">
+                            <img src="./assets/images/icons/pf-ico9.svg" class="img-fluid" alt="" />
+                            <h4 class="fw-600">Eliminates Unconscious Bias</h4>
+                            <p class="mb-0 fw-500">Anonymity is the secret sauce of the Thirty2give app. People that are shy and afraid to raise their hand to ask a question can do so in our safe and <a href="javascript:void(0)" class="text-decoration-underline-ani position-relative">Read More</a></p>
+                        </div>
+                        <div class="platform-benefits-col">
+                            <img src="./assets/images/icons/pf-ico10.svg" class="img-fluid" alt="" />
+                            <h4 class="fw-600">iPhone or Android</h4>
+                            <p class="mb-0 fw-500">The thirty2give app works on any iPhone or Android smartphone and users can connect anywhere in the world using AWS cloud services.</p>
+                        </div>
+                        <div class="platform-benefits-col">
+                            <img src="./assets/images/icons/pf-ico11.svg" class="img-fluid" alt="" />
+                            <h4 class="fw-600">Anonymous</h4>
+                            <p class="mb-0 fw-500">No pictures, no marketing, no advertisements or big companies. Users are in control. Pick a user name and get matched with a mentor in the B2B model. In the forthcoming B2C mode, users will have the option to select a mentor matching their needs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Platform Benefits end -->
+    <!-- know more section start -->
+    <section class="know-more-section section-big-pt position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="heading-title text-center">Know More About <span class="text-primary">Thirty2give</span></h2>
+                    <div class="know-more-video-wrap">
+                        <iframe width="100%" src="https://www.youtube.com/embed/EG8RZR1pgeM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- know more section end -->
+    <!-- book to b2b section start -->
+    <section class="book-btob-section light-prime-primary-color-bg section-mid-py pb-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex">
+                    <div class="book-btob-containt-wrap position-relative">
+                        <div class="position-relative z-1">
+                            <h2 class="heading-title mb-3">Partner with a leader in virtual smartphone engagement/<span class="text-primary">mentoring</span></h2>
+                            <p class="heading-label-p">Improve your organization's engagement. Create an environment where your organization members can engage with each other anywhere in the world</p>
+                            <ul>
+                                <li class="d-flex align-items-center">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" class="me-2" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="10" cy="10" r="10" fill="#FFA52F"/>
+                                        <path d="M14.4666 6.80001C14.1999 6.53334 13.7999 6.53334 13.5333 6.80001L8.53325 11.8L6.46659 9.73334C6.19992 9.46667 5.79992 9.46667 5.53325 9.73334C5.26659 10 5.26659 10.4 5.53325 10.6667L8.06659 13.2C8.19992 13.3333 8.33325 13.4 8.53325 13.4C8.73325 13.4 8.86659 13.3333 8.99992 13.2L14.4666 7.73334C14.7333 7.46667 14.7333 7.06667 14.4666 6.80001Z" fill="white"/>
+                                    </svg>  
+                                    iPhone or Android                                  
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" class="me-2" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="10" cy="10" r="10" fill="#FFA52F"/>
+                                        <path d="M14.4666 6.80001C14.1999 6.53334 13.7999 6.53334 13.5333 6.80001L8.53325 11.8L6.46659 9.73334C6.19992 9.46667 5.79992 9.46667 5.53325 9.73334C5.26659 10 5.26659 10.4 5.53325 10.6667L8.06659 13.2C8.19992 13.3333 8.33325 13.4 8.53325 13.4C8.73325 13.4 8.86659 13.3333 8.99992 13.2L14.4666 7.73334C14.7333 7.46667 14.7333 7.06667 14.4666 6.80001Z" fill="white"/>
+                                    </svg>  
+                                    Share information over a flexible time period                                
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" class="me-2" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="10" cy="10" r="10" fill="#FFA52F"/>
+                                        <path d="M14.4666 6.80001C14.1999 6.53334 13.7999 6.53334 13.5333 6.80001L8.53325 11.8L6.46659 9.73334C6.19992 9.46667 5.79992 9.46667 5.53325 9.73334C5.26659 10 5.26659 10.4 5.53325 10.6667L8.06659 13.2C8.19992 13.3333 8.33325 13.4 8.53325 13.4C8.73325 13.4 8.86659 13.3333 8.99992 13.2L14.4666 7.73334C14.7333 7.46667 14.7333 7.06667 14.4666 6.80001Z" fill="white"/>
+                                    </svg>  
+                                    Data shared is private through AWS encrypted software                                
+                                </li>
+                            </ul>
+                            <div class="d-flex align-items-center gap-4">
+                                <a href="javascript:void(0)"><img src="./assets/images/logo/apple-play.png" class="img-fluid" alt="" /></a>
+                                <a href="javascript:void(0)"><img src="./assets/images/logo/google-play.png" class="img-fluid" alt="" /></a>
+                            </div>
+                            <button class="primary-btn ripple-effect-btn mt-5">Book a B2B Demo</button>
+                        </div>
+                        <img src="./assets/images/line/vector-line.svg" class="img-fluid book-btob-vector-line-img" alt="" />
+                    </div>
+                    <div class="ms-auto">
+                        <img src="./assets/images/bg/hand-phone0.png" class="img-fluid" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- book to b2b section end -->
+    <!-- business solution section start -->
+    <div class="business-solution-section section-big-py">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex w-100">
+                        <div class="business-solution-heading">
+                            <h2 class="heading-title">Check out our <span class="text-primary">business solutions</span></h2>
+                            <img src="./assets/images/line/vector-line1.svg" class="img-fluid d-flex mx-auto" alt="" />
+                        </div>
+                        <div class="business-solution-details-wrap ms-auto">
+                            <div class="business-solution-box d-flex align-items-center">
+                                <div class="d-flex align-items-center">
+                                    <div class="business-solution-ico-box d-flex align-items-center justify-content-center">
+                                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M26.0189 7.14689L15.7064 1.40001C15.2141 1.05681 14.6284 0.872803 14.0282 0.872803C13.4281 0.872803 12.8424 1.05681 12.3501 1.40001L2.03762 7.14689C1.69492 7.39453 1.41588 7.71996 1.22344 8.09644C1.03101 8.47292 0.930664 8.8897 0.930664 9.31251C0.930664 9.73532 1.03101 10.1521 1.22344 10.5286C1.41588 10.9051 1.69492 11.2305 2.03762 11.4781L2.14074 11.5438L5.56262 13.475V22.4375C5.56262 23.9094 7.68137 27.125 14.0001 27.125C20.3189 27.125 22.4376 23.9094 22.4376 22.4375V13.475L25.2501 11.9094V22.4375C25.2501 22.6862 25.3489 22.9246 25.5247 23.1004C25.7005 23.2762 25.939 23.375 26.1876 23.375C26.4363 23.375 26.6747 23.2762 26.8505 23.1004C27.0263 22.9246 27.1251 22.6862 27.1251 22.4375V9.31251C27.1237 8.89003 27.0228 8.47382 26.8306 8.09759C26.6384 7.72135 26.3603 7.39566 26.0189 7.14689ZM20.5626 22.4375C20.5626 22.8031 19.2407 25.25 14.0001 25.25C8.75949 25.25 7.43762 22.8031 7.43762 22.4375V14.5156L12.3126 17.225C12.8088 17.5673 13.3973 17.7506 14.0001 17.7506C14.6029 17.7506 15.1914 17.5673 15.6876 17.225L20.5626 14.5156V22.4375ZM24.9407 9.94064L14.6282 15.6781C14.4475 15.8065 14.2312 15.8755 14.0095 15.8755C13.7878 15.8755 13.5715 15.8065 13.3907 15.6781L3.07824 9.94064C2.98278 9.86611 2.90556 9.77081 2.85245 9.66197C2.79935 9.55313 2.77174 9.43362 2.77174 9.31251C2.77174 9.19141 2.79935 9.07189 2.85245 8.96305C2.90556 8.85421 2.98278 8.75891 3.07824 8.68439C3.07824 8.68439 13.3907 2.97501 13.3907 2.94689C13.5749 2.81822 13.7942 2.74923 14.0189 2.74923C14.2435 2.74923 14.4628 2.81822 14.647 2.94689L24.9595 8.68439C25.0549 8.75891 25.1322 8.85421 25.1853 8.96305C25.2384 9.07189 25.266 9.19141 25.266 9.31251C25.266 9.43362 25.2384 9.55313 25.1853 9.66197C25.1322 9.77081 25.0549 9.86611 24.9595 9.94064H24.9407Z" fill="white"/>
+                                        </svg>                                            
+                                    </div>
+                                    <h5 class="fw-600">Academia</h5>
+                                </div>
+                                <p class="ms-auto mb-0">Increasing alumni engagement to turn scholars into professionals</p>
+                            </div>
+                            <div class="business-solution-box d-flex align-items-center">
+                                <div class="d-flex align-items-center">
+                                    <div class="business-solution-ico-box d-flex align-items-center justify-content-center">
+                                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M26.0189 7.14689L15.7064 1.40001C15.2141 1.05681 14.6284 0.872803 14.0282 0.872803C13.4281 0.872803 12.8424 1.05681 12.3501 1.40001L2.03762 7.14689C1.69492 7.39453 1.41588 7.71996 1.22344 8.09644C1.03101 8.47292 0.930664 8.8897 0.930664 9.31251C0.930664 9.73532 1.03101 10.1521 1.22344 10.5286C1.41588 10.9051 1.69492 11.2305 2.03762 11.4781L2.14074 11.5438L5.56262 13.475V22.4375C5.56262 23.9094 7.68137 27.125 14.0001 27.125C20.3189 27.125 22.4376 23.9094 22.4376 22.4375V13.475L25.2501 11.9094V22.4375C25.2501 22.6862 25.3489 22.9246 25.5247 23.1004C25.7005 23.2762 25.939 23.375 26.1876 23.375C26.4363 23.375 26.6747 23.2762 26.8505 23.1004C27.0263 22.9246 27.1251 22.6862 27.1251 22.4375V9.31251C27.1237 8.89003 27.0228 8.47382 26.8306 8.09759C26.6384 7.72135 26.3603 7.39566 26.0189 7.14689ZM20.5626 22.4375C20.5626 22.8031 19.2407 25.25 14.0001 25.25C8.75949 25.25 7.43762 22.8031 7.43762 22.4375V14.5156L12.3126 17.225C12.8088 17.5673 13.3973 17.7506 14.0001 17.7506C14.6029 17.7506 15.1914 17.5673 15.6876 17.225L20.5626 14.5156V22.4375ZM24.9407 9.94064L14.6282 15.6781C14.4475 15.8065 14.2312 15.8755 14.0095 15.8755C13.7878 15.8755 13.5715 15.8065 13.3907 15.6781L3.07824 9.94064C2.98278 9.86611 2.90556 9.77081 2.85245 9.66197C2.79935 9.55313 2.77174 9.43362 2.77174 9.31251C2.77174 9.19141 2.79935 9.07189 2.85245 8.96305C2.90556 8.85421 2.98278 8.75891 3.07824 8.68439C3.07824 8.68439 13.3907 2.97501 13.3907 2.94689C13.5749 2.81822 13.7942 2.74923 14.0189 2.74923C14.2435 2.74923 14.4628 2.81822 14.647 2.94689L24.9595 8.68439C25.0549 8.75891 25.1322 8.85421 25.1853 8.96305C25.2384 9.07189 25.266 9.19141 25.266 9.31251C25.266 9.43362 25.2384 9.55313 25.1853 9.66197C25.1322 9.77081 25.0549 9.86611 24.9595 9.94064H24.9407Z" fill="white"/>
+                                        </svg>                                                                                       
+                                    </div>
+                                    <h5 class="fw-600">Social Isolation</h5>
+                                </div>
+                                <p class="ms-auto mb-0">Engaging counselors and the community to reduce the weight of isolation</p>
+                            </div>
+                            <div class="business-solution-box d-flex align-items-center">
+                                <div class="d-flex align-items-center">
+                                    <div class="business-solution-ico-box d-flex align-items-center justify-content-center">
+                                        <svg width="30" height="28" viewBox="0 0 30 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M29.9412 17.0412C29.941 17.0155 29.9398 16.9897 29.9373 16.964C29.9368 16.9581 29.9359 16.9526 29.9355 16.9466C29.9327 16.9233 29.9293 16.9002 29.9247 16.8768C29.9238 16.8718 29.9226 16.8667 29.9215 16.8615C29.9169 16.8407 29.9114 16.8198 29.9055 16.7992C29.9032 16.7912 29.9007 16.783 29.8981 16.775C29.8915 16.7546 29.8842 16.7342 29.8759 16.7141L29.8739 16.7088C29.873 16.7065 29.8721 16.7045 29.8711 16.7024L24.6025 3.82346C24.6023 3.82254 24.6018 3.82162 24.6014 3.82094C24.5975 3.81133 24.5931 3.8024 24.5888 3.79301C24.5821 3.7786 24.5755 3.76418 24.5682 3.75021C24.5634 3.74106 24.5583 3.73213 24.5533 3.72321C24.5448 3.70833 24.5359 3.69391 24.5268 3.67949C24.5224 3.67262 24.5178 3.66553 24.5132 3.65866C24.4988 3.6376 24.4837 3.61723 24.4677 3.59778C24.4668 3.59663 24.4659 3.59572 24.465 3.59457C24.4494 3.57603 24.4331 3.55818 24.4162 3.54102C24.4109 3.53575 24.4057 3.53072 24.4004 3.52545C24.3869 3.51241 24.3732 3.50005 24.359 3.48792C24.3528 3.48265 24.3468 3.47739 24.3407 3.47258C24.3237 3.45885 24.3063 3.4458 24.2885 3.43344C24.2853 3.43115 24.2821 3.42863 24.2786 3.42635C24.2585 3.41284 24.2377 3.40048 24.2166 3.38858C24.2079 3.38377 24.1992 3.37943 24.1905 3.37508C24.1766 3.36798 24.1624 3.36111 24.1482 3.35471C24.1386 3.35036 24.129 3.34601 24.1191 3.34212C24.1024 3.33525 24.0852 3.3293 24.0681 3.32335C24.0594 3.3206 24.0509 3.3174 24.0422 3.31488C24.0205 3.30824 23.9983 3.30252 23.9758 3.29771C23.9669 3.29588 23.9578 3.29428 23.9486 3.29268C23.9307 3.28925 23.9129 3.2865 23.8946 3.28421C23.8861 3.28329 23.8776 3.28215 23.8692 3.28146C23.8426 3.27895 23.8161 3.27734 23.7893 3.27734H18.3458C17.9546 1.76283 16.5765 0.640625 14.9416 0.640625C13.3065 0.640625 11.9284 1.76283 11.5372 3.27734H6.09398C6.06697 3.27734 6.04042 3.27895 6.01387 3.28146C6.00517 3.28215 5.9967 3.28329 5.98824 3.28421C5.97015 3.2865 5.95207 3.28925 5.93422 3.29245C5.92506 3.29428 5.91614 3.29565 5.90698 3.29771C5.88478 3.30252 5.86258 3.30824 5.84084 3.31465C5.83191 3.3174 5.82344 3.32037 5.81474 3.32335C5.79758 3.32907 5.78064 3.33525 5.76393 3.34189C5.75409 3.34601 5.74448 3.35013 5.73486 3.35448C5.72044 3.36089 5.70648 3.36775 5.69252 3.37485C5.68382 3.37943 5.6749 3.38377 5.66643 3.38858C5.64514 3.40048 5.62431 3.41284 5.60417 3.42635C5.60097 3.42863 5.59776 3.43115 5.59433 3.43344C5.57648 3.4458 5.55908 3.45885 5.54215 3.47235C5.53597 3.47739 5.53001 3.48265 5.52406 3.48769C5.50987 3.49982 5.49614 3.51241 5.48264 3.52545C5.47737 3.53049 5.47188 3.53552 5.46684 3.54079C5.44991 3.55818 5.43366 3.57581 5.41809 3.59457C5.41718 3.59549 5.41626 3.59663 5.41534 3.59755C5.39932 3.61723 5.38422 3.6376 5.3698 3.65866C5.36499 3.6653 5.36064 3.67239 5.35606 3.67949C5.34691 3.69368 5.33798 3.70833 5.32974 3.72298C5.32448 3.7319 5.31967 3.74083 5.31487 3.74998C5.30754 3.76418 5.30067 3.7786 5.29404 3.79301C5.28992 3.80217 5.28534 3.81133 5.28145 3.82071C5.28122 3.82162 5.28076 3.82254 5.2803 3.82346L0.011673 16.7022C0.0107575 16.7045 0.0100708 16.7065 0.00915528 16.7086L0.00686648 16.7141C-0.00137332 16.734 -0.00846861 16.7546 -0.0151062 16.775C-0.0178528 16.783 -0.0201416 16.7912 -0.0226593 16.7992C-0.0286102 16.8198 -0.0341034 16.8407 -0.0384521 16.8615C-0.0395965 16.8665 -0.0407409 16.8718 -0.0418854 16.8768C-0.0462341 16.8999 -0.0496673 16.9233 -0.0524139 16.9466C-0.0531006 16.9523 -0.0537872 16.9581 -0.0544739 16.9638C-0.0567627 16.9897 -0.058136 17.0155 -0.0583649 17.0412C-0.0583649 17.0432 -0.0585938 17.045 -0.0585938 17.0469C-0.0585938 20.1162 2.70126 22.6133 6.09375 22.6133C9.48624 22.6133 12.2461 20.1162 12.2461 17.0469C12.2461 17.0448 12.2459 17.043 12.2459 17.0412C12.2456 17.0155 12.2443 16.9897 12.242 16.9638C12.2413 16.9581 12.2406 16.9523 12.2399 16.9466C12.2372 16.9233 12.2337 16.8999 12.2294 16.8768C12.2282 16.8718 12.2271 16.8665 12.226 16.8615C12.2216 16.8407 12.2161 16.8198 12.2102 16.7992C12.2076 16.7912 12.2054 16.783 12.2026 16.775C12.196 16.7546 12.1889 16.7342 12.1806 16.7141L12.1783 16.7086C12.1774 16.7065 12.1767 16.7045 12.1758 16.7022L7.40295 5.03516H11.537C11.8559 6.26883 12.8291 7.24204 14.0625 7.56064V25.6602H10.8398C10.3546 25.6602 9.96094 26.0536 9.96094 26.5391C9.96094 27.0245 10.3546 27.418 10.8398 27.418H19.043C19.5284 27.418 19.9219 27.0245 19.9219 26.5391C19.9219 26.0536 19.5284 25.6602 19.043 25.6602H15.8203V7.56064C17.054 7.24181 18.0272 6.26883 18.3458 5.03516H22.4799L17.707 16.7024C17.7061 16.7045 17.7054 16.7068 17.7042 16.7088L17.7022 16.7141C17.6939 16.7342 17.6868 16.7546 17.68 16.7752C17.6775 16.7832 17.6752 16.7912 17.6727 16.7992C17.6667 16.8201 17.6612 16.8407 17.6566 16.8617C17.6555 16.8667 17.6546 16.8718 17.6534 16.877C17.6489 16.9002 17.6454 16.9235 17.6429 16.9469C17.6422 16.9526 17.6413 16.9583 17.6408 16.964C17.6383 16.9897 17.6372 17.0155 17.6369 17.0414C17.6369 17.0432 17.6367 17.045 17.6367 17.0469C17.6367 20.1162 20.3966 22.6133 23.7891 22.6133C27.1813 22.6133 29.9414 20.1162 29.9414 17.0469C29.9416 17.045 29.9412 17.0432 29.9412 17.0412ZM6.09398 20.8555C4.01962 20.8555 2.27646 19.6037 1.81755 17.9258H10.3704C9.91127 19.6037 8.16811 20.8555 6.09398 20.8555ZM2.12952 16.168L6.09398 6.47757L10.0582 16.168H2.12952ZM14.9416 5.91406C13.9723 5.91406 13.1838 5.12557 13.1838 4.15625C13.1838 3.18694 13.9723 2.39844 14.9416 2.39844C15.9107 2.39844 16.6994 3.18694 16.6994 4.15625C16.6994 5.12557 15.9107 5.91406 14.9416 5.91406ZM23.7893 6.47757L27.7535 16.168H19.8248L23.7893 6.47757ZM23.7893 20.8555C21.7149 20.8555 19.9718 19.6037 19.5129 17.9258H28.0657C27.6066 19.6037 25.8634 20.8555 23.7893 20.8555Z" fill="white"/>
+                                        </svg>                                                                                       
+                                    </div>
+                                    <h5 class="fw-600">Judicial Support</h5>
+                                </div>
+                                <p class="ms-auto mb-0">Increasing engagement of the system to reduce negative outcomes for youth</p>
+                            </div>
+                            <div class="business-solution-box d-flex align-items-center">
+                                <div class="d-flex align-items-center">
+                                    <div class="business-solution-ico-box d-flex align-items-center justify-content-center">
+                                        <svg width="25" height="26" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12.8651 0.400024C7.87259 0.400024 3.81128 4.46138 3.81128 9.45385V10.4359H5.65274V9.45385C5.65274 5.4769 8.88821 2.24149 12.8651 2.24149C16.842 2.24149 20.0775 5.47695 20.0775 9.45385V10.4359H21.9189V9.45385C21.9189 4.46138 17.8573 0.400024 12.8651 0.400024Z" fill="white"/>
+                                            <path d="M6.02106 9.51526H3.74993C2.15924 9.51526 0.86499 10.8095 0.86499 12.4002V16.6048C0.86499 18.1955 2.15924 19.4898 3.74993 19.4898H6.02106C6.52962 19.4898 6.94177 19.0776 6.94177 18.5691V10.436C6.94181 9.92746 6.52962 9.51526 6.02106 9.51526ZM5.10035 17.6484H3.74993C3.16494 17.6484 2.70645 17.1902 2.70645 16.6049V12.4003C2.70645 11.8153 3.16499 11.3568 3.74993 11.3568H5.10035V17.6484Z" fill="white"/>
+                                            <path d="M21.9801 9.51526H19.7093C19.2007 9.51526 18.7886 9.92746 18.7886 10.436V18.5691C18.7886 19.0776 19.2008 19.4898 19.7093 19.4898H21.9804C23.5711 19.4898 24.8654 18.1955 24.8651 16.6048V12.4002C24.8651 10.8095 23.5711 9.51526 21.9801 9.51526ZM23.0236 16.6049C23.0236 17.1902 22.5654 17.6484 21.9801 17.6484H20.63V11.3567H21.9801C22.5654 11.3567 23.0236 11.8153 23.0236 12.4002V16.6049Z" fill="white"/>
+                                            <path d="M20.7222 18.5691C20.7222 19.8554 19.6756 20.9016 18.3894 20.9016H15.9341V22.7431H18.3894C20.6909 22.7431 22.5633 20.8706 22.5636 18.5691H20.7222Z" fill="white"/>
+                                            <path d="M16.8239 21.8016C16.8125 19.9669 15.316 18.4774 13.4785 18.4774C11.6343 18.4774 10.1335 19.9779 10.1335 21.8225C10.1335 23.667 11.6481 25.1677 13.5095 25.1677C14.4287 25.1677 15.3142 24.793 15.9384 24.1393C16.5442 23.5055 16.8579 22.6762 16.8239 21.8016ZM14.6076 22.8665C14.3287 23.1584 13.9285 23.326 13.5098 23.326C12.6781 23.326 11.9753 22.6373 11.9753 21.8221C11.9753 20.9932 12.6496 20.3185 13.4789 20.3185C14.3081 20.3185 14.9827 20.9935 14.983 21.8218C14.983 21.8359 14.9833 21.8497 14.9839 21.8638C15.0008 22.2386 14.8673 22.5949 14.6076 22.8665Z" fill="white"/>
+                                        </svg>                                                                                      
+                                    </div>
+                                    <h5 class="fw-600">Counseling Support</h5>
+                                </div>
+                                <p class="ms-auto mb-0">Connecting social caseworkers and volunteers in profit and nonprofit organizations to clients</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- business solution section end -->
+    <!-- review section start -->
+    <section class="review-section section-mid-pt light-prime-primary-color-bg pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="heading-title"><span class="text-primary">Everyone</span> loves it!</h2>
+                    <!-- Swiper -->
+                    <div class="swiper review-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide bg-transparent">
+                                <div>
+                                    <div class="d-flex align-items-center">
+                                        <div class="profile-img-wrap">
+                                            <img src="./assets/images/gallery/blog0.png" class="img-fluid img-cover" alt="" />
+                                        </div>
+                                        <div class="ms-3">
+                                            <h6 class="fw-500 text-start mb-0">Wandra Neal-Cain</h6>
+                                            <small class="fw-400 text-start mb-0">Founder President, WCA Interior Designs, LLC</small>
+                                        </div>
+                                    </div>
+                                    <p class="text-start">I've been an entrepreneur for the last 25 years and much of my success came from the counseled advice of many people that shared their wisdom and knowledge with me in face to face mentoring sessions. Much of my business is done now online or through my cell phone. The Thirty2give mobile engagement model fits my lifestyle well - its uniqueness and fingertip readiness may encourage many other people that look like me to assemble calculated risks to pursue their dreams.</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide bg-transparent">
+                                <div>
+                                    <div class="d-flex align-items-center">
+                                        <div class="profile-img-wrap">
+                                            <img src="./assets/images/gallery/blog1.png" class="img-fluid img-cover" alt="" />
+                                        </div>
+                                        <div class="ms-3">
+                                            <h6 class="fw-500 text-start mb-0">Kim Malone</h6>
+                                            <small class="fw-400 text-start mb-0">CEO and Founder Reality Check by Kim</small>
+                                        </div>
+                                    </div>
+                                    <p class="text-start">The Thirty2give team has been instrumental in helping my business reach new markets with their B2B app. I have 20 years of experience in the judicial sector and believe this App can be used to proactively address offenders, victims and their families.</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide bg-transparent">
+                                <div>
+                                    <div class="d-flex align-items-center">
+                                        <div class="profile-img-wrap">
+                                            <img src="./assets/images/gallery/blog2.png" class="img-fluid img-cover" alt="" />
+                                        </div>
+                                        <div class="ms-3">
+                                            <h6 class="fw-500 text-start mb-0">Mark Jackson</h6>
+                                            <small class="fw-400 text-start mb-0">Founder President, WCA Interior Designs, LLC</small>
+                                        </div>
+                                    </div>
+                                    <p class="text-start">As a member of my undergraduate university's College of Business Advisory Board, I was asked to lead the effort to identify an effective tool for student mentoring. The focus was to find a tool that was consistent with how students both interacted and communicated in their daily relationships and would integrate into our alumni mentor program structure. While our search for the right tool surveyed several solutions, we finally settled on Thirty2gives' unique approach and App.</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide bg-transparent">
+                                <div>
+                                    <div class="d-flex align-items-center">
+                                        <div class="profile-img-wrap">
+                                            <img src="./assets/images/gallery/blog0.png" class="img-fluid img-cover" alt="" />
+                                        </div>
+                                        <div class="ms-3">
+                                            <h6 class="fw-500 text-start mb-0">Wandra Neal-Cain</h6>
+                                            <small class="fw-400 text-start mb-0">Founder President, WCA Interior Designs, LLC</small>
+                                        </div>
+                                    </div>
+                                    <p class="text-start">I've been an entrepreneur for the last 25 years and much of my success came from the counseled advice of many people that shared their wisdom and knowledge with me in face to face mentoring sessions. Much of my business is done now online or through my cell phone. The Thirty2give mobile engagement model fits my lifestyle well - its uniqueness and fingertip readiness may encourage many other people that look like me to assemble calculated risks to pursue their dreams.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- review section end -->
+    <!-- faq's section start -->
+    <section class="faq-section section-big-pt">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="faq-header">
+                        <h2 class="mb-0 text-white fw-600">FAQ<small>s</small></h2>
+                    </div>
+                    <div class="faq-box w-100">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <h3>"Why anonymity?"</h3>
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Only 36M Baby Boomers are left in the US workplace and 76M Millennials are in the workplace, many seeking mentors. Limited access and the shortfall, mentors are forced to be highly selective in who they choose to mentor. Unconscious bias and other factors inadvertently make it even more challenging to secure a mentor. Anonymity levels the playing field giving more people a fair shot at aligning with a mentor. The other benefit of anonymity is that people that normally avoid exposure because of the situation ( celebrities, politicians, disabled, etc) but have a desire to give back can share their knowledge in a safe environment.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <h3>Mentorship occurs over a period of time as the relationship matures, how is this possible when the relationship is only for 30 days?</h3>
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Only 36M Baby Boomers are left in the US workplace and 76M Millennials are in the workplace, many seeking mentors. Limited access and the shortfall, mentors are forced to be highly selective in who they choose to mentor. Unconscious bias and other factors inadvertently make it even more challenging to secure a mentor. Anonymity levels the playing field giving more people a fair shot at aligning with a mentor. The other benefit of anonymity is that people that normally avoid exposure because of the situation ( celebrities, politicians, disabled, etc) but have a desire to give back can share their knowledge in a safe environment.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <h3>Are the mentors vetted?</h3>
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Only 36M Baby Boomers are left in the US workplace and 76M Millennials are in the workplace, many seeking mentors. Limited access and the shortfall, mentors are forced to be highly selective in who they choose to mentor. Unconscious bias and other factors inadvertently make it even more challenging to secure a mentor. Anonymity levels the playing field giving more people a fair shot at aligning with a mentor. The other benefit of anonymity is that people that normally avoid exposure because of the situation ( celebrities, politicians, disabled, etc) but have a desire to give back can share their knowledge in a safe environment.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- faq's section end -->
+    <!-- blog section start -->
+    <section class="blog-section section-big-pt">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="heading-title text-center">Blogs</h2>
+                </div>
+                <div class="col-md-4 blog-mt">
+                    <div class="blog-box-wrap">
+                        <div class="blog-img">
+                            <img src="./assets/images/gallery/blog0.png" class="img-fluid img-cover" alt="" />
+                        </div>
+                        <div class="blog-content">
+                            <small class="fw-400 d-block">6 February 2022</small>
+                            <h6 class="fw-600">Do you have a mentor or a sponsor?</h6>
+                            <p class="fw-500 pb-0">Everyone has benefitted from a mentor at some point in their lives. Most people have had the privilege of having a sponsor that helped move them toward ....</p>
+                            <button class="primary-btn translate-btn">Read Article</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 blog-mt">
+                    <div class="blog-box-wrap">
+                        <div class="blog-img">
+                            <img src="./assets/images/gallery/blog1.png" class="img-fluid img-cover" alt="" />
+                        </div>
+                        <div class="blog-content">
+                            <small class="fw-400 d-block">6 February 2022</small>
+                            <h6 class="fw-600">Do you have a mentor or a sponsor?</h6>
+                            <p class="fw-500 pb-0">Everyone has benefitted from a mentor at some point in their lives. Most people have had the privilege of having a sponsor that helped move them toward ....</p>
+                            <button class="primary-btn translate-btn">Read Article</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 blog-mt">
+                    <div class="blog-box-wrap">
+                        <div class="blog-img">
+                            <img src="./assets/images/gallery/blog2.png" class="img-fluid img-cover" alt="" />
+                        </div>
+                        <div class="blog-content">
+                            <small class="fw-400 d-block">6 February 2022</small>
+                            <h6 class="fw-600">Do you have a mentor or a sponsor?</h6>
+                            <p class="fw-500 pb-0">Everyone has benefitted from a mentor at some point in their lives. Most people have had the privilege of having a sponsor that helped move them toward ....</p>
+                            <button class="primary-btn translate-btn">Read Article</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog section end -->
+    <!-- subscribe-section start -->
+    <section class="subscribe-section section-extra-big-pt position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex align-items-center">
+                        <div class="subscribe-containt-wrap">
+                            <h2 class="heading-title">Subscribe to our <span class="text-primary">community</span></h2>
+                            <p class="heading-label-p">Subscribe to our community to receive exclusive offers and latest updates</p>
+                            <form class="mt-4">
+                                <label class="fw-400">We respect your privacy !</label>
+                                <div class="d-flex align-items-center gap-3">
+                                    <input type="email" name="" class="form-control custom-input" placeholder="Email Address"/>
+                                    <button class="primary-btn ripple-effect-btn">Subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+                        <img src="./assets/images/line/vector-line2.svg" class="img-fluid subscribe-vector-line" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- subscribe-section end -->
+    <!-- additional-question-section start -->
+    <section class="additional-question-section section-extra-big-mt">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex align-items-center">
+                    <h4 class="fw-600 mb-0">Additional Questions? Please contact us at:</h4>
+                    <div class="ms-auto">
+                        <ul>
+                            <li class="d-flex align-items-center">
+                                <a href="javascript:vod(0)" class="fw-500">
+                                    <svg class="me-2 call-ico" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15.5 11.6833V14.63C15.5001 14.841 15.4202 15.0441 15.2763 15.1985C15.1325 15.3528 14.9355 15.4469 14.725 15.4617C14.3608 15.4867 14.0633 15.5 13.8333 15.5C6.46917 15.5 0.5 9.53083 0.5 2.16667C0.5 1.93667 0.5125 1.63917 0.538333 1.275C0.553102 1.06454 0.647151 0.867509 0.801503 0.723674C0.955855 0.579839 1.15902 0.499905 1.37 0.5H4.31667C4.42003 0.499896 4.51975 0.538216 4.59644 0.607517C4.67313 0.676818 4.72133 0.772152 4.73167 0.875C4.75083 1.06667 4.76833 1.21917 4.785 1.335C4.95061 2.49077 5.29 3.61486 5.79167 4.66917C5.87083 4.83583 5.81917 5.035 5.66917 5.14167L3.87083 6.42667C4.97038 8.98871 7.01212 11.0305 9.57417 12.13L10.8575 10.335C10.91 10.2617 10.9865 10.2091 11.0737 10.1864C11.161 10.1637 11.2535 10.1723 11.335 10.2108C12.3892 10.7116 13.513 11.0501 14.6683 11.215C14.7842 11.2317 14.9367 11.25 15.1267 11.2683C15.2294 11.2789 15.3245 11.3271 15.3936 11.4038C15.4628 11.4805 15.501 11.5801 15.5008 11.6833H15.5Z" fill="white" fill-opacity="0.6"/>
+                                    </svg>                                    
+                                    855-250-2355
+                                </a>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <a href="javascript:vod(0)" class="fw-500">
+                                    <svg class="me-2" width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.9 0H17.1C17.3387 0 17.5676 0.0948211 17.7364 0.263604C17.9052 0.432387 18 0.661305 18 0.9V15.3C18 15.5387 17.9052 15.7676 17.7364 15.9364C17.5676 16.1052 17.3387 16.2 17.1 16.2H0.9C0.661305 16.2 0.432387 16.1052 0.263604 15.9364C0.0948211 15.7676 0 15.5387 0 15.3V0.9C0 0.661305 0.0948211 0.432387 0.263604 0.263604C0.432387 0.0948211 0.661305 0 0.9 0ZM9.054 7.8147L3.2832 2.9142L2.1177 4.2858L9.0657 10.1853L15.8886 4.2813L14.7114 2.9196L9.0549 7.8147H9.054Z" fill="white" fill-opacity="0.6"/>
+                                    </svg>                                                                        
+                                    info@thirty2give.com
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- additional-question-section end -->
+    <!-- footer section start -->
+    <footer class="light-prime-primary-color-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="./assets/images/logo/big-logo.png" class="img-fluid" alt="" />
+                    <ul class="menu-social-options-list d-flex align-items-center">
+                        <li>
+                            <a href="javascript:void(0)">
+                                <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-path">
+                                    <path d="M19.1666 0.500079C18.3686 1.06298 17.485 1.4935 16.5499 1.77508C16.048 1.198 15.381 0.788989 14.6391 0.603351C13.8972 0.417713 13.1162 0.464409 12.4017 0.737123C11.6871 1.00984 11.0736 1.49541 10.6441 2.12818C10.2145 2.76094 9.98967 3.51036 9.99992 4.27508V5.10841C8.53545 5.14639 7.08431 4.82159 5.77576 4.16295C4.4672 3.50431 3.34185 2.53228 2.49992 1.33341C2.49992 1.33341 -0.833415 8.83341 6.66658 12.1667C4.95036 13.3317 2.90588 13.9159 0.833252 13.8334C8.33325 18.0001 17.4999 13.8334 17.4999 4.25008C17.4991 4.01796 17.4768 3.78641 17.4333 3.55841C18.2838 2.71966 18.8839 1.66067 19.1666 0.500079Z"></path>
+                                </svg>                                
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_789_832)">
+                                    <path d="M14.1667 1.6665H5.83341C3.53223 1.6665 1.66675 3.53198 1.66675 5.83317V14.1665C1.66675 16.4677 3.53223 18.3332 5.83341 18.3332H14.1667C16.4679 18.3332 18.3334 16.4677 18.3334 14.1665V5.83317C18.3334 3.53198 16.4679 1.6665 14.1667 1.6665Z" stroke="#041018" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M13.3333 9.47525C13.4361 10.1688 13.3176 10.8771 12.9947 11.4994C12.6718 12.1218 12.1609 12.6264 11.5346 12.9416C10.9083 13.2569 10.1986 13.3666 9.50641 13.2552C8.81419 13.1438 8.17472 12.817 7.67895 12.3212C7.18318 11.8254 6.85636 11.186 6.74497 10.4938C6.63359 9.80154 6.74331 9.09183 7.05852 8.46556C7.37374 7.8393 7.87841 7.32837 8.50074 7.00545C9.12307 6.68254 9.83138 6.56407 10.5249 6.66692C11.2324 6.77182 11.8873 7.10147 12.393 7.60717C12.8987 8.11288 13.2283 8.76782 13.3333 9.47525Z" stroke="#041018" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M14.5833 5.4165H14.5916" stroke="#041018" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_789_832">
+                                    <rect width="20" height="20" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>                                
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-path">
+                                    <path d="M0 6.49997H3.125V3.99997C3.125 0.249965 5.625 -0.375035 10 0.249965V3.37497C7.5 3.37497 6.875 3.37497 6.875 5.24997V6.49997H10L9.375 10.25H6.875V17.75H3.125V10.25H0V6.49997Z"></path>
+                                </svg>                                                              
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-path">
+                                    <path d="M15.9958 15.9999V15.9993H15.9998V10.1313C15.9998 7.26064 15.3818 5.04932 12.0258 5.04932C10.4125 5.04932 9.32984 5.93465 8.88784 6.77397H8.84117V5.31732H5.65918V15.9993H8.9725V10.71C8.9725 9.3173 9.2365 7.97064 10.9612 7.97064C12.6605 7.97064 12.6858 9.55996 12.6858 10.7993V15.9999H15.9958Z"></path>
+                                    <path d="M0.26416 5.31787H3.58148V15.9998H0.26416V5.31787Z"></path>
+                                    <path d="M1.92133 0C0.860664 0 0 0.860662 0 1.92132C0 2.98198 0.860664 3.86065 1.92133 3.86065C2.98199 3.86065 3.84266 2.98198 3.84266 1.92132C3.84199 0.860662 2.98133 0 1.92133 0V0Z"></path>
+                                </svg>                                                               
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-path">
+                                    <path d="M16.9525 2.41492C17.3333 3.89992 17.3333 6.99992 17.3333 6.99992C17.3333 6.99992 17.3333 10.0999 16.9525 11.5849C16.7408 12.4058 16.1216 13.0516 15.3375 13.2699C13.9133 13.6666 8.99996 13.6666 8.99996 13.6666C8.99996 13.6666 4.08913 13.6666 2.66246 13.2699C1.87496 13.0483 1.25663 12.4033 1.04746 11.5849C0.666626 10.0999 0.666626 6.99992 0.666626 6.99992C0.666626 6.99992 0.666626 3.89992 1.04746 2.41492C1.25913 1.59409 1.87829 0.948252 2.66246 0.729918C4.08913 0.333252 8.99996 0.333252 8.99996 0.333252C8.99996 0.333252 13.9133 0.333252 15.3375 0.729918C16.125 0.951585 16.7433 1.59659 16.9525 2.41492ZM7.33329 9.91658L12.3333 6.99992L7.33329 4.08325V9.91658Z"></path>
+                                </svg>                                                             
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-9">
+                    <div class="footer-list-grid d-grid">
+                        <div class="footer-col">
+                            <h5>Our Services</h5>
+                            <h6>B2B</h6>
+                            <ul class="list-style-dot">
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        Social Isolation
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        Academia
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        Judicial support
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        Counseling Support
+                                    </a>
+                                </li>
+                            </ul>
+                            <h6 class="d-flex align-items-center">B2C <label class="soon-label d-flex align-items-center justify-content-center fw-500 text-white w-max-content ms-2">Coming Soon</label></h6>
+                        </div>
+                        <div class="footer-col">
+                            <h5>Company</h5>
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        In the news
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        Our Customers
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h5>Resource</h5>
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        Blogs
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        Mentoring Tips
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        Article Links
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        FAQs
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h5>Legal</h5>
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        Terms & Conditions
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        Privacy Policy
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="sub-footer text-center">
+                        <p class="mb-0">Copyright &copy; 2023Thirty2Give Virtual Mentoring - All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section end -->
+
+    <script src="./assets/js/jquery-3.6.3.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    <script src="./assets/js/custom.js"></script>
+</body>
+
+</html>

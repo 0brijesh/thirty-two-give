@@ -1,0 +1,71 @@
+/* responsive css start */
+@media (min-width: 1140px) {
+  .container {
+    max-width: 1040px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1150px;
+  }
+}
+@media (min-width: 1350px) {
+  .container {
+    max-width: 1250px;
+  }
+}
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1350px;
+  }
+}
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1450px;
+  }
+}
+@media (max-width: 1799px) {
+}
+@media (max-width: 1599px) {
+  :root {
+    --section-spacing: 100px;
+  }
+}
+@media (max-width: 1365px) {
+  :root {
+    --section-spacing: 70px;
+  }
+}
+@media (max-width: 1199px) {
+  header ul li a {
+    font-size: 14px;
+    margin-right: 20px;
+  }
+}
+@media (max-width: 991px) {
+  header ul li a {
+    margin-right: 15px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 767px) {
+  header {
+    padding: 8px 0;
+  }
+  header.fixed {
+    padding: 15px 0;
+  }
+  :root {
+    --section-spacing: 50px;
+  }
+}
+@media (max-width: 575px) {
+  .header-0-section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .primary-btn {
+    min-width: 130px;
+  }
+}
+/* responsive css end */
