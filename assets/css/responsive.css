@@ -153,6 +153,27 @@
     margin-right: 15px;
     font-size: 15px;
   }
+  .menu-social-options-list a:not(:last-child) {
+    margin-right: 30px;
+  }
+  :root{
+    --header-less-spacing: 70px;
+  }
+  header{
+    padding: 10px 12px;
+  }
+  header.fixed{
+    padding: 7px 12px;
+  }
+  .hero-section{
+    padding: 70px 12px;
+  }
+  .hero-content{
+    max-width: 100%;
+  }
+  .hero-bg-img img{
+    max-width: 400px;
+  }
 }
 @media (max-width: 767px) {
   header {

@@ -590,9 +590,9 @@ header ul li:not(:last-child) a{
 .list-menu li a:hover::before {
   width: 100%;
 }
-.mobile-menu-ico svg path {
+/* .mobile-menu-ico svg path {
   fill: var(--primary-color);
-}
+} */
 .menu-list{
   padding-left: 120px;
 }
