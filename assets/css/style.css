@@ -259,7 +259,7 @@ section {
   transition: 0.5s all;
 }
 .primary-btn:hover {
-  background: linear-gradient( 50.35deg, #e68200 50.09%, #ffa52f 50.33% );;
+  background: linear-gradient( 50.35deg, #e68200 50.09%, #ffa52f 50.33% );
   border-color: var(--secondary-color);
   color: var(--white-color);
 }

@@ -66,5 +66,23 @@ var swiper = new Swiper(".review-swiper", {
     el: ".swiper-pagination",
     clickable: true,
   },
+  breakpoints: {
+    0: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    992: {
+      slidesPerView: 3,
+      spaceBetween: 40,
+    },
+    1200: {
+      slidesPerView: 3,
+      spaceBetween: 86,
+    },
+  },
 });
 // swiper js end

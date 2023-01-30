@@ -25,10 +25,43 @@
   }
 }
 @media (max-width: 1799px) {
+  .hero-content {
+    max-width: 550px;
+  }
+  .heading-title.big-heading-title {
+    font-size: 50px;
+  }
 }
 @media (max-width: 1599px) {
   :root {
     --section-spacing: 100px;
+  }
+  .heading-title,.faq-header h2,.heading-title.big-heading-title{
+    font-size: 40px;
+  }
+  .platform-benefits-col h4,.blog-box-wrap h6 {
+    font-size: 20px;
+  }
+  .platform-benefits-grid {
+    grid-gap: 55px 50px;
+  }
+  .hero-content {
+    max-width: 550px;
+  }
+  .business-solution-details-wrap {
+    width: 604px;
+  }
+  .business-solution-ico-box{
+    margin-right: 15px;
+  }
+  .business-solution-box h5,.review-swiper .swiper-slide p{
+    font-size: 16px;
+  }
+  .footer-list-grid {
+    grid-gap: 40px;
+  }
+  .book-btob-vector-line-img {
+    max-width: 780px;
   }
 }
 @media (max-width: 1365px) {
@@ -38,14 +71,81 @@
   header ul li:not(:last-child) a {
     margin-right: 25px;
   }
-  .hero-content {
-    max-width: 600px;
+  .subscribe-vector-line {
+    max-width: 500px;
   }
 }
 @media (max-width: 1199px) {
   header ul li a {
     font-size: 14px;
     margin-right: 20px;
+  }
+  .menu-social-options-list a:not(:last-child) {
+    margin-right: 15px;
+  }
+  .menu-list {
+    padding-left: 50px;
+  }
+  .hero-content {
+    max-width: 450px;
+  }
+  .heading-title.small-heading-title,
+  .heading-title, .faq-header h2, .heading-title.big-heading-title {
+    font-size: 35px;
+  }
+  .heading-label-p {
+    font-size: 16px;
+  }
+  .primary-btn{
+    min-width: 160px;
+  }
+  .platform-benefits-grid {
+    grid-gap: 40px 30px;
+  }
+  .platform-benefits-col h4, .blog-box-wrap h6 {
+    font-size: 18px;
+  }
+  :root{
+    --section-extra-big-spacing: 130px;
+    --section-big-spacing: 90px;
+    --section-mid-spacing: 60px;
+  }
+  .business-solution-box {
+    padding: 20px;
+  }
+  .business-solution-ico-box {
+    min-width: 55px;
+    min-height: 55px;
+    width: 55px;
+    height: 55px;
+  }
+  .book-btob-containt-wrap {
+    max-width: 600px;
+  }
+  .book-btob-vector-line-img {
+    max-width: 650px;
+    bottom: 30px;
+  }
+  .blog-box-wrap .blog-img{
+    height: 200px
+  }
+  :root {
+    --section-extra-big-spacing: 100px;
+    --section-big-spacing: 80px;
+    --section-mid-spacing: 50px;
+  }
+  .subscribe-containt-wrap {
+    max-width: 540px;
+  }
+  .subscribe-vector-line {
+    max-width: 420px;
+    top: 120px;
+  }
+  .footer-list-grid {
+    grid-gap: 10px;
+  }
+  .sub-footer{
+    margin-top: 40px;
   }
 }
 @media (max-width: 991px) {
