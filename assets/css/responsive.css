@@ -1,0 +1,393 @@
+/* responsive css start */
+@media (min-width: 1140px) {
+  .container {
+    max-width: 1040px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1150px;
+  }
+}
+@media (min-width: 1350px) {
+  .container {
+    max-width: 1250px;
+  }
+}
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1350px;
+  }
+}
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1450px;
+  }
+}
+@media (max-width: 1799px) {
+  .hero-content {
+    max-width: 550px;
+  }
+  .heading-title.big-heading-title {
+    font-size: 50px;
+  }
+}
+@media (max-width: 1599px) {
+  :root {
+    --section-spacing: 100px;
+  }
+  .heading-title,
+  .faq-header h2,
+  .heading-title.big-heading-title {
+    font-size: 40px;
+  }
+  .platform-benefits-col h4,
+  .blog-box-wrap h6 {
+    font-size: 20px;
+  }
+  .platform-benefits-grid {
+    grid-gap: 55px 50px;
+  }
+  .hero-content {
+    max-width: 550px;
+  }
+  .business-solution-details-wrap {
+    width: 604px;
+  }
+  .business-solution-ico-box {
+    margin-right: 15px;
+  }
+  .business-solution-box h5,
+  .review-swiper .swiper-slide p {
+    font-size: 16px;
+  }
+  .footer-list-grid {
+    grid-gap: 40px;
+  }
+  .book-btob-vector-line-img {
+    max-width: 780px;
+  }
+}
+@media (max-width: 1365px) {
+  :root {
+    --section-spacing: 70px;
+  }
+  header ul li:not(:last-child) a {
+    margin-right: 25px;
+  }
+  .subscribe-vector-line {
+    max-width: 500px;
+  }
+}
+@media (max-width: 1199px) {
+  header ul li a {
+    font-size: 14px;
+    margin-right: 20px;
+  }
+  .menu-social-options-list a:not(:last-child) {
+    margin-right: 15px;
+  }
+  .menu-list {
+    padding-left: 50px;
+  }
+  .hero-content {
+    max-width: 450px;
+  }
+  .heading-title.small-heading-title,
+  .heading-title,
+  .faq-header h2,
+  .heading-title.big-heading-title {
+    font-size: 35px;
+  }
+  .heading-label-p {
+    font-size: 16px;
+  }
+  .primary-btn {
+    min-width: 160px;
+  }
+  .platform-benefits-grid {
+    grid-gap: 40px 30px;
+  }
+  .platform-benefits-col h4,
+  .blog-box-wrap h6 {
+    font-size: 18px;
+  }
+  :root {
+    --section-extra-big-spacing: 130px;
+    --section-big-spacing: 90px;
+    --section-mid-spacing: 60px;
+  }
+  .business-solution-box {
+    padding: 20px;
+  }
+  .business-solution-ico-box {
+    min-width: 55px;
+    min-height: 55px;
+    width: 55px;
+    height: 55px;
+  }
+  .book-btob-containt-wrap {
+    max-width: 600px;
+  }
+  .book-btob-vector-line-img {
+    max-width: 650px;
+    bottom: 30px;
+  }
+  .blog-box-wrap .blog-img {
+    height: 200px;
+  }
+  :root {
+    --section-extra-big-spacing: 100px;
+    --section-big-spacing: 80px;
+    --section-mid-spacing: 50px;
+  }
+  .subscribe-containt-wrap {
+    max-width: 540px;
+  }
+  .subscribe-vector-line {
+    max-width: 420px;
+    top: 120px;
+  }
+  .footer-list-grid {
+    grid-gap: 10px;
+  }
+  .sub-footer {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 991px) {
+  header ul li a {
+    margin-right: 15px;
+    font-size: 15px;
+  }
+  .menu-social-options-list a:not(:last-child) {
+    margin-right: 30px;
+  }
+  :root {
+    --header-less-spacing: 70px;
+  }
+  header {
+    padding: 10px 12px;
+  }
+  .hero-section {
+    padding: 70px 12px;
+  }
+  .hero-content,
+  .book-btob-containt-wrap,
+  .business-solution-heading,
+  .subscribe-containt-wrap {
+    max-width: 100%;
+  }
+  .hero-bg-img img {
+    max-width: 400px;
+  }
+  .hero-section,
+  .hero-section .hero-content-col {
+    min-height: auto;
+  }
+  .platform-benefits-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .book-btob-vector-line-img {
+    bottom: 0;
+  }
+  .business-solution-details-wrap {
+    width: 100%;
+  }
+  .platform-benefits-content {
+    max-width: 500px;
+  }
+  .faq-section .faq-header {
+    border-radius: 13px;
+    padding: 30px;
+    width: 90%;
+  }
+  .faq-section .faq-box {
+    padding: 60px 50px 30px;
+    margin-top: -55px;
+  }
+  .subscribe-vector-line {
+    position: unset;
+  }
+  .additional-question-section {
+    padding: 20px 12px;
+  }
+  .footer-list-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 767px) {
+  header,
+  header.fixed {
+    padding: 8px 0;
+  }
+
+  .book-btob-vector-line-img {
+    max-width: 100%;
+  }
+  .heading-title.small-heading-title,
+  .heading-title,
+  .faq-header h2,
+  .heading-title.big-heading-title {
+    font-size: 30px;
+  }
+  .heading-label-p {
+    line-height: inherit;
+  }
+  .heading-label-p,
+  p,
+  .business-solution-box h5,
+  .review-swiper .swiper-slide p,
+  .faq-section .accordion-body p {
+    font-size: 14px;
+  }
+  .faq-section .accordion-body p {
+    line-height: inherit;
+  }
+  .platform-benefits-grid {
+    grid-gap: 30px 20px;
+  }
+  .platform-benefits-col h4,
+  .blog-box-wrap h6,
+  .review-swiper .swiper-slide h6,
+  .additional-question-section a {
+    font-size: 16px;
+    line-height: inherit;
+  }
+  :root {
+    --section-extra-big-spacing: 70px;
+    --section-big-spacing: 50px;
+    --section-mid-spacing: 40px;
+  }
+  .know-more-video-wrap {
+    margin: 44px auto 0;
+  }
+  .know-more-video-wrap iframe {
+    height: 412px;
+  }
+  .book-btob-section {
+    margin-top: 80px;
+  }
+  .review-swiper .swiper-slide .profile-img-wrap {
+    min-width: 40px;
+    min-height: 40px;
+    width: 40px;
+    height: 40px;
+  }
+  .review-swiper {
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+  .faq-section .faq-box {
+    padding: 60px 30px 30px;
+  }
+  .faq-section .accordion-button h3,
+  .additional-question-section h4 {
+    font-size: 18px;
+    line-height: inherit;
+  }
+  .faq-section .accordion-header {
+    padding: 26px 0;
+  }
+  footer .menu-social-options-list {
+    grid-gap: 40px;
+    margin-top: 30px;
+  }
+  .sub-footer {
+    margin-top: 20px;
+  }
+  .footer-col h5 {
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 575px) {
+  .header-0-section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .primary-btn {
+    min-width: 130px;
+  }
+  .hero-bg-img img,
+  .subscribe-vector-line {
+    max-width: 100%;
+  }
+  .menu-social-options-list a:not(:last-child) {
+    margin-right: 15px;
+  }
+  .header-logo {
+    max-width: 60px;
+  }
+  header.fixed {
+    min-height: 70px;
+  }
+  .hero-section {
+    padding: 50px 12px;
+  }
+  .heading-title.small-heading-title,
+  .heading-title,
+  .faq-header h2,
+  .heading-title.big-heading-title {
+    font-size: 22px;
+  }
+  .hero-content p {
+    font-size: 16px;
+    line-height: inherit;
+  }
+  .primary-btn {
+    min-width: 110px;
+    font-size: 14px;
+    padding: 7px 15px;
+    min-height: 40px;
+  }
+  .platform-benefits-grid {
+    margin-top: 50px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .platform-benefits-grid {
+    grid-gap: 20px 10px;
+  }
+  .platform-benefits-col > img {
+    margin-bottom: 20px;
+    max-width: 30px;
+  }
+  .platform-benefits-col h4,
+  .blog-box-wrap h6,
+  .review-swiper .swiper-slide h6,
+  .additional-question-section a {
+    font-size: 15px;
+  }
+  .book-btob-containt-wrap ul {
+    font-size: 14px;
+  }
+  .book-btob-section {
+    margin-top: 50px;
+  }
+  .review-swiper {
+    margin-top: 40px;
+    padding-bottom: 40px;
+  }
+  .faq-section .faq-header {
+    border-radius: 7px;
+    padding: 20px;
+  }
+  .faq-section .faq-box {
+    margin-top: -40px;
+  }
+  .faq-section .accordion-button h3,
+  .additional-question-section h4 {
+    font-size: 16px;
+  }
+  .sub-footer {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 374px) {
+  .know-more-video-wrap iframe {
+    height: 315px;
+  }
+  .footer-list-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* responsive css end */
