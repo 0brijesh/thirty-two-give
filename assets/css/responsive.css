@@ -154,6 +154,9 @@
   .sub-footer {
     margin-top: 40px;
   }
+  .know-more-video-wrap iframe{
+    border-width: 7px;
+  }
 }
 @media (max-width: 991px) {
   header ul li a {

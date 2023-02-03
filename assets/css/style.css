@@ -546,6 +546,9 @@ label sup.star {
   line-height: 30px;
   margin-top: 10px;
 }
+.text-primary{
+  color: var(--primary-color) !important;
+}
 /* default css end */
 /* header-0 css start */
 .header-0-section {
@@ -723,6 +726,9 @@ header ul li:not(:last-child) a {
 }
 .know-more-video-wrap iframe {
   height: 612px;
+  border-width: 10px;
+  border-style: solid;
+  border-image: linear-gradient( to bottom, #CBE5F6, rgba(0, 0, 0, 0) ) 1 1 0 1;
 }
 .know-more-section::after {
   content: "";
