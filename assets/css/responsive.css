@@ -31,6 +31,17 @@
   .heading-title.big-heading-title {
     font-size: 50px;
   }
+  .privacy-terms-data h3{
+    font-size: 30px;
+    line-height: inherit;
+    margin-bottom: 20px;
+  }
+  .hero-innrer-section{
+    min-height: 300px;
+  }
+  .privacy-terms-data p{
+    margin-bottom: 30px;
+  }
 }
 @media (max-width: 1599px) {
   :root {
@@ -66,6 +77,11 @@
   }
   .contact-us-details-wrap p {
     margin-bottom: 50px;
+  }
+  :root{
+    --section-extra-big-spacing: 120px;
+    --section-big-spacing: 90px;
+    --section-mid-spacing: 50px;
   }
 }
 @media (max-width: 1439px){
@@ -120,11 +136,6 @@
   .blog-box-wrap h6 {
     font-size: 18px;
   }
-  :root {
-    --section-extra-big-spacing: 130px;
-    --section-big-spacing: 90px;
-    --section-mid-spacing: 60px;
-  }
   .business-solution-box {
     padding: 20px;
   }
@@ -145,9 +156,9 @@
     height: 200px;
   }
   :root {
-    --section-extra-big-spacing: 100px;
-    --section-big-spacing: 80px;
-    --section-mid-spacing: 50px;
+    --section-extra-big-spacing: 90px;
+    --section-big-spacing: 70px;
+    --section-mid-spacing: 40px;
   }
   .subscribe-containt-wrap {
     max-width: 540px;
@@ -248,6 +259,18 @@
   }
   .subscribe-vector-line, .hero-img,.contact-us-details-wrap,.contact-us-form-wrap {
     max-width: 100%;
+  }
+  .hero-innrer-section {
+    min-height: 250px;
+  }
+  .privacy-terms-data p,.privacy-terms-data{
+    margin-bottom: 20px;
+  } 
+  .privacy-terms-data h3{
+    font-size: 24px;
+  }
+  .privacy-terms-data .contact-details-wrap{
+    margin-top: 40px;
   }
 }
 @media (max-width: 767px) {
@@ -390,11 +413,8 @@
   .platform-benefits-col h4,
   .blog-box-wrap h6,
   .review-swiper .swiper-slide h6,
-  .additional-question-section a {
+  .additional-question-section a,.privacy-terms-data p, .book-btob-containt-wrap ul  {
     font-size: 15px;
-  }
-  .book-btob-containt-wrap ul {
-    font-size: 14px;
   }
   .book-btob-section {
     margin-top: 50px;
@@ -424,6 +444,15 @@
     border-radius: 6px;
     min-height: 45px;
   }
+  .privacy-terms-data h3 {
+    font-size: 20px;
+}
+.privacy-terms-data h5{
+  font-size: 18px;
+}
+.hero-innrer-section {
+  min-height: 150px;
+}
 }
 @media (max-width: 374px) {
   .know-more-video-wrap iframe {

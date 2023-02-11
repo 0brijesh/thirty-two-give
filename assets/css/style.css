@@ -552,6 +552,12 @@ label sup.star {
 .text-primary{
   color: var(--primary-color) !important;
 }
+.text-color{
+  color: var(--text-color);
+}
+.heading-text-color{
+  color: var(--accent-color0);
+}
 /* default css end */
 /* header-0 css start */
 .header-0-section {
@@ -1187,4 +1193,53 @@ header ul li:hover .menu-option{
   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   padding: 40px;
+}
+/* hero-inner section */
+.hero-innrer-section{
+  background: linear-gradient(180deg, rgba(0, 126, 214, 0.2) 0%, rgba(255, 165, 47, 0.2) 100%);
+  min-height: 400px;
+}
+.privacy-terms-data{
+  margin-bottom: 30px;
+}
+.privacy-terms-data h3{
+  font-size: 50px;
+  line-height: 70px;
+  margin-bottom: 24px;
+}
+.privacy-terms-data p{
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+.privacy-terms-data h5{
+  font-size: 22px;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+.ul-pb-p{
+  margin-bottom: 16px;
+}
+.privacy-terms-data li{
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+.privacy-terms-data ul.li-list-style-dot{
+  margin-bottom: 24px;
+  padding-left: 24px;
+}
+.privacy-terms-data h6{
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: var(--accent-color0);
+}
+.location-text{font-size: 24px;}
+.list-style-dot,.li-list-style-dot li{
+  list-style: disc;
+}
+.privacy-terms-data:last-child{
+  margin-bottom: 0;
+}
+.privacy-terms-data .contact-us-details-wrap ul li svg{
+  margin-right: 20px;
 }
