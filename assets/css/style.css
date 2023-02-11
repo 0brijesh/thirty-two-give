@@ -368,6 +368,9 @@ a.primary-btn:hover {
   color: var(--black-color);
   text-align: left;
 }
+textarea.form-control{
+  min-height: 120px;
+}
 .form-floating > .form-control,
 .form-floating > .form-control-plaintext,
 .form-floating > label {
@@ -509,8 +512,8 @@ label sup.star {
   top: 3px;
 }
 .form-check-input:checked {
-  background-color: var(--primary-color);
-  border-color: var(--primary-color);
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
 }
 .fill-path path {
   fill: var(--accent-color0);
@@ -689,7 +692,7 @@ header ul li:not(:last-child) a {
 .hero-content {
   max-width: 640px;
 }
-.hero-content p {
+.hero-content p,.hero-content-p {
   font-weight: 500;
   font-size: 22px;
   line-height: 36px;
@@ -707,6 +710,8 @@ header ul li:not(:last-child) a {
 }
 .platform-benefits-col > img {
   margin-bottom: 30px;
+  width: 50px;
+  height: 50px;
 }
 .platform-benefits-col h4 {
   font-size: 24px;
@@ -1099,6 +1104,7 @@ footer .soon-label {
   background-color: var(--secondary-color);
   border-radius: 4px;
   font-size: 12px;
+  padding: 2px 5px;
 }
 footer a:hover {
   color: var(--primary-color) !important;
@@ -1109,3 +1115,76 @@ footer a:hover {
   padding: 20px 0;
 }
 /* footer end */
+header ul li {
+  position: relative;
+  padding: 20px 0;
+}
+.menu-option{
+  min-width: 200px;
+  width: max-content;
+  max-height: 250px;
+  padding: 0 15px;
+  overflow-y: auto;
+  background-color: var(--white-color);
+  position: absolute;
+  top: 100px;
+  left: 0;
+  z-index: 9;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+}
+.menu-option li{
+  padding: 8px 0;
+  width: max-content;
+}
+header .menu-option ul li a{
+  margin-right: 0;
+}
+.list-menu .menu-option li a::before{
+  bottom: 0;
+}
+header ul li:hover .menu-option{
+  opacity: 1;
+  visibility: visible;
+  top: 60px;
+}
+/* contact us */
+.contact-us-hero-section{
+  /* background-color: var(--white-color); */
+  padding: 44px 12px 60px;
+}
+.contact-us-details-wrap{
+  max-width: 555px;
+}
+.contact-us-details-wrap h2{
+  margin-bottom: 30px;
+}
+.contact-us-details-wrap p{
+  margin-bottom: 90px;
+}
+.contact-us-details-wrap ul li a{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--accent-color0);
+}
+.contact-us-details-wrap ul li svg{
+  margin-right: 20px;
+}
+.contact-us-details-wrap ul li:not(:last-child){
+  margin-bottom: 35px;
+}
+.contact-us-details-wrap ul li a span{
+  width: calc(100% - 25px);
+}
+.contact-us-form-wrap{
+  max-width: 620px;
+  height: auto;
+  background: var(--white-color);
+  border: 1px solid rgba(4, 16, 24, 0.1);
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 40px;
+}

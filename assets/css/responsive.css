@@ -36,12 +36,9 @@
   :root {
     --section-spacing: 100px;
   }
-  .heading-title,
-  .faq-header h2,
-  .heading-title.big-heading-title {
-    font-size: 40px;
+  .platform-benefits-col h4{
+    font-size: 22px;
   }
-  .platform-benefits-col h4,
   .blog-box-wrap h6 {
     font-size: 20px;
   }
@@ -67,6 +64,14 @@
   .book-btob-vector-line-img {
     max-width: 780px;
   }
+  .contact-us-details-wrap p {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 1439px){
+  .hero-img{
+    max-width: 600px;
+  }
 }
 @media (max-width: 1365px) {
   :root {
@@ -75,7 +80,7 @@
   header ul li:not(:last-child) a {
     margin-right: 25px;
   }
-  .subscribe-vector-line {
+  .subscribe-vector-line, .hero-img {
     max-width: 500px;
   }
 }
@@ -98,6 +103,9 @@
   .faq-header h2,
   .heading-title.big-heading-title {
     font-size: 35px;
+  }
+  .heading-title.big-heading-title{
+    font-size: 45px;
   }
   .heading-label-p {
     font-size: 16px;
@@ -156,6 +164,26 @@
   }
   .know-more-video-wrap iframe{
     border-width: 7px;
+  }
+  .hero-img {
+    max-width: 450px;
+  }
+  .contact-us-details-wrap {
+    max-width: 455px;
+  }
+  .contact-us-form-wrap {
+    max-width: 500px;
+    padding: 30px;
+  }
+  .hero-content p, .hero-content-p{
+    font-size: 20px;
+    line-height: inherit;
+  }
+  .contact-us-details-wrap p {
+    margin-bottom: 30px;
+  }
+  .contact-us-details-wrap ul li:not(:last-child){
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 991px) {
@@ -217,6 +245,9 @@
   }
   .footer-list-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .subscribe-vector-line, .hero-img,.contact-us-details-wrap,.contact-us-form-wrap {
+    max-width: 100%;
   }
 }
 @media (max-width: 767px) {
@@ -302,6 +333,9 @@
   .footer-col h5 {
     margin-bottom: 25px;
   }
+  .contact-us-details-wrap h2{
+    margin-bottom: 20px;
+  }
 }
 @media (max-width: 575px) {
   .header-0-section {
@@ -333,7 +367,7 @@
   .heading-title.big-heading-title {
     font-size: 22px;
   }
-  .hero-content p {
+  .hero-content p,.hero-content-p,.contact-us-details-wrap ul li a {
     font-size: 16px;
     line-height: inherit;
   }
@@ -352,7 +386,6 @@
   }
   .platform-benefits-col > img {
     margin-bottom: 20px;
-    max-width: 30px;
   }
   .platform-benefits-col h4,
   .blog-box-wrap h6,
@@ -383,6 +416,13 @@
   }
   .sub-footer {
     margin-top: 10px;
+  }
+  .contact-us-form-wrap {
+    padding: 20px;
+  }
+  .custom-input, .custom-textarea{
+    border-radius: 6px;
+    min-height: 45px;
   }
 }
 @media (max-width: 374px) {
