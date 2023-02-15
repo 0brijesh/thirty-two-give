@@ -345,10 +345,10 @@ a.primary-btn:hover {
   background: transparent;
   color: var(--secondary-color);
   box-shadow: none;
-  border: 1px solid #FFA52F;
+  border: 1px solid var(--secondary-color);
 }
 .translate-btn:hover {
-  background: #FFA52F;
+  background: var(--secondary-color);
   box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.24);
   color: var(--white-color);
 }
@@ -947,7 +947,7 @@ header ul li:not(:last-child) a {
 /* .review-swiper .swiper-pagination-bullet{
   background-color: #D9D9D9;
 } */
-.review-swiper .swiper-pagination-bullet-active {
+.swiper-pagination-bullet-active {
   background-color: var(--secondary-color);
 }
 /* review section end */
@@ -1156,7 +1156,7 @@ header ul li:hover .menu-option{
   visibility: visible;
   top: 60px;
 }
-/* contact us */
+/* contact us start */
 .contact-us-hero-section{
   /* background-color: var(--white-color); */
   padding: 44px 12px 60px;
@@ -1194,11 +1194,14 @@ header ul li:hover .menu-option{
   border-radius: 8px;
   padding: 40px;
 }
-/* hero-inner section */
+/* contact us end */
+/* hero-inner section start */
 .hero-innrer-section{
   background: linear-gradient(180deg, rgba(0, 126, 214, 0.2) 0%, rgba(255, 165, 47, 0.2) 100%);
   min-height: 400px;
 }
+/* hero-inner section end */
+/* privacy-terms start */
 .privacy-terms-data{
   margin-bottom: 30px;
 }
@@ -1247,3 +1250,134 @@ header ul li:hover .menu-option{
 .privacy-terms-data .contact-us-details-wrap ul li svg{
   margin-right: 20px;
 }
+/* privacy-terms end */
+/* in-the-news start */
+.in-the-news-head{
+  width: 290px;
+}
+.in-the-news-slider-wrap{
+  width: calc(100% - 290px);
+  padding-left: 70px;
+}
+.in-the-news-wrap{
+  padding-left: 225px;
+}
+.in-news-box{
+  background-color: #F0F8FD;
+  border-radius: 20px;
+  padding: 20px;
+  transition: all 0.3s;
+}
+.in-news-img{
+  width: 100%;
+  height: 240px;
+  border-radius: 10px;
+}
+.in-news-box img{
+  transition: all 0.3s;
+}
+.in-news-box:hover img{
+  transform: scale(1.03);
+}
+.in-news-content{
+  padding-top: 20px;
+}
+.in-news-content a{
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 38px;
+  color: var(--accent-color0);
+  margin-bottom: 52px;
+  transition: all 0.3s;
+}
+.in-news-content span{
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  color: var(--text-color);
+}
+.release-label{
+  width: 116px;
+  height: 35px;
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+  top: 10px;
+  left: 10px;
+  font-size: 15px;
+}
+.in-news-box:hover a{
+  color: var(--primary-color) !important;
+}
+/* in-the-news end */
+/* organizations-section start */
+.organizations-box{
+  background: var(--white-color);
+  border: 1px solid rgba(4, 16, 24, 0.1);
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+  margin-top: 110px;
+  padding: 60px;
+}
+.organizations-img{
+  width: 336px;
+  height: 490px;
+  border-radius: 8px;
+  margin-top: -130px;
+}
+.organizations-img img{
+  filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.12));
+}
+.organizations-containt{
+  width: calc(100% - 336px);
+  padding-left: 48px;
+}
+.organizations-label{
+  background: rgba(255, 165, 47, 0.16);
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--secondary-color);
+}
+.organizations-label svg{
+  min-width: 15px;
+  min-height: 15px;
+}
+.organizations-containt h3{
+  margin: 24px 0;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 42px;
+  color: var(--accent-color0);
+}
+.organizations-data{
+  width: 400px;
+}
+.organizations-list-grid{
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 12px 35px;
+}
+.organizations-list-grid .organizations-col span{
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--accent-color0);
+}
+.organizations-section .platform-benefits-content {
+  max-width: 750px;
+}
+.in-news-transparent-box{
+  background-color: transparent;
+  border: 1px solid rgba(4, 16, 24, 0.1);
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.06);
+}
+.in-the-news-post .in-news-img{
+  height: 450px;
+}
+.in-news-content a{
+  margin-bottom: 10px;
+}
+.in-the-news-post .day-dot{
+  position: relative;
+  top: -4px;
+}
+/* organizations-section end */

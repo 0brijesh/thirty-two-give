@@ -67,5 +67,35 @@ var swiper = new Swiper(".review-swiper", {
     },
   },
 });
+// in-the-news-swiper
+var swiper = new Swiper(".in-the-news-swiper", {
+  slidesPerView: 3,
+  spaceBetween: 86,
+  slidesPerGroup: 3,
+  loop: false,
+  loopFillGroupWithBlank: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 10,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    992: {
+      slidesPerView: 3,
+      spaceBetween: 40,
+    },
+    1200: {
+      slidesPerView: 3.4,
+      spaceBetween: 30,
+    },
+  },
+});
 // swiper js end
 // 
