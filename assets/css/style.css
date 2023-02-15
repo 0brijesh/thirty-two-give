@@ -1215,7 +1215,7 @@ header ul li:hover .menu-option{
 .privacy-terms-data h5{
   font-size: 22px;
   line-height: 36px;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 .ul-pb-p{
   margin-bottom: 16px;
@@ -1228,9 +1228,13 @@ header ul li:hover .menu-option{
   margin-bottom: 24px;
   padding-left: 24px;
 }
+.li-list-style-spacing{
+  margin-bottom: 24px;
+  padding-left: 24px;
+}
 .privacy-terms-data h6{
   font-size: 18px;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
   color: var(--accent-color0);
 }
 .location-text{font-size: 24px;}
