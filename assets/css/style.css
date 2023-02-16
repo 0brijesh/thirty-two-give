@@ -1104,7 +1104,7 @@ footer .list-style-dot {
 footer .list-style-dot li {
   list-style: disc;
 }
-footer .soon-label {
+.soon-label {
   min-width: 85px;
   min-height: 22px;
   background-color: var(--secondary-color);
@@ -1129,7 +1129,7 @@ header ul li {
   min-width: 200px;
   width: max-content;
   max-height: 250px;
-  padding: 0 15px;
+  padding: 10px 15px;
   overflow-y: auto;
   background-color: var(--white-color);
   position: absolute;
