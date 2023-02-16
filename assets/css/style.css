@@ -1373,11 +1373,48 @@ header ul li:hover .menu-option{
 .in-the-news-post .in-news-img{
   height: 450px;
 }
-.in-news-content a{
+.in-the-news-post .in-news-content a{
   margin-bottom: 10px;
 }
 .in-the-news-post .day-dot{
   position: relative;
   top: -4px;
 }
+.bg-light-orange{
+  background: rgba(255, 165, 47, 0.05);
+}
 /* organizations-section end */
+/* our-company-section start */
+.our-company-grid{
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+.our-company-section .organizations-containt,.our-company-section .organizations-img,.our-company-section .organizations-data{
+  width: 100%;
+  padding: 0;
+}
+.our-company-section .organizations-img{
+  height: 390px;
+}
+.our-company-section .organizations-list-grid {
+  grid-gap: 12px 95px;
+}
+.our-company-section .organizations-img{
+  margin-top: -110px;
+}
+.our-company-section .our-company-col{
+  margin-top: 60px;
+}
+.our-company-section .organizations-box{
+  margin-top: 0;
+  height: 100%;
+}
+.organizations-col svg{
+  min-width: 20px;
+  min-height: 20px;
+}
+.organizations-col.d-flex svg{
+  position: relative;
+  top: 4px;
+}
+/* our-company-section end */
