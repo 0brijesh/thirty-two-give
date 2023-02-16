@@ -80,18 +80,30 @@ var swiper = new Swiper(".in-the-news-swiper", {
   },
   breakpoints: {
     0: {
-      slidesPerView: 1,
+      slidesPerView: 1.1,
+      spaceBetween: 8,
+    },
+    415: {
+      slidesPerView: 1.3,
       spaceBetween: 10,
     },
     768: {
-      slidesPerView: 2,
-      spaceBetween: 40,
+      slidesPerView: 1.5,
+      spaceBetween: 20,
     },
     992: {
-      slidesPerView: 3,
-      spaceBetween: 40,
+      slidesPerView: 2,
+      spaceBetween: 20,
     },
     1200: {
+      slidesPerView: 2.2,
+      spaceBetween: 20,
+    },
+    1280: {
+      slidesPerView: 2.8,
+      spaceBetween: 30,
+    },
+    1800: {
       slidesPerView: 3.4,
       spaceBetween: 30,
     },

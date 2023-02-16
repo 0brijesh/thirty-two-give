@@ -1323,10 +1323,12 @@ header ul li:hover .menu-option{
   height: 490px;
   border-radius: 8px;
   margin-top: -130px;
+  overflow: hidden;
+  background-color: #CBE5F6;
 }
-.organizations-img img{
+/* .organizations-img img{
   filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.12));
-}
+} */
 .organizations-containt{
   width: calc(100% - 336px);
   padding-left: 48px;
