@@ -1604,3 +1604,47 @@ header ul li:hover .menu-option{
   border-color: var(--primary-color);
 }
 /* judicial-support-inner-0-section end */
+/* fight-social-isolation-0-section start */
+.fight-social-isolation-0-section .judicial-support-col{
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.06);
+}
+.fight-social-isolation-0-section .heading-small-title{
+  max-width: 890px;
+}
+.fight-social-isolation-1-section .counseling-services-containt-wrap {
+  max-width: 720px;
+}
+.fight-social-isolation-1-section .counseling-services-img-wrap h6{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: var(--text-color);
+  max-width: 350px;
+  right: 0;
+  transform: translate(90px, -90px);
+}
+/* fight-social-isolation-0-section end */
+/* Published Acknowledgements start */
+.published-acknowledgements-box{
+  background: var(--white-color);
+  border: 1px solid;
+  border-width: 4px 1px 1px 1px;
+  border-color: var(--secondary-color) rgba(4, 16, 24, 0.1) rgba(4, 16, 24, 0.1) rgba(4, 16, 24, 0.1);
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  padding: 55px 55px 40px;
+}
+.published-acknowledgements-box h2{
+  margin-bottom: 36px;
+}
+.published-acknowledgements-box p{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  text-align: center;
+  color: var(--accent-color0);
+  max-width: 840px;
+  margin: 0 auto 16px;
+}
+/* Published Acknowledgements end */
