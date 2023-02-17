@@ -1156,6 +1156,9 @@ header ul li:hover .menu-option{
   visibility: visible;
   top: 60px;
 }
+.inner-option-menu li a {
+  color: rgba(4, 16, 24, 0.6);
+}
 /* contact us start */
 .contact-us-hero-section{
   /* background-color: var(--white-color); */
