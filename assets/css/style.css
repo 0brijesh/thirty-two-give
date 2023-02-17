@@ -1490,7 +1490,7 @@ header ul li:hover .menu-option{
   max-width: 840px;
 }
 .judicial-support-grid{
-  margin-top: 95px;
+  margin-top: 80px;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 100px;
 }
@@ -1503,12 +1503,14 @@ header ul li:hover .menu-option{
   margin-bottom: 20px;
 }
 .judicial-support-col{
-  padding: 15px;
+  padding: 30px;
   border-radius: 15px;
   height: 100%;
+  border: 1px solid transparent;
   transition: all 0.3s;
 }
 .judicial-support-col:hover{
+  border-color: var(--primary-color);
   background-color: var(--white-color);
   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.06);
 }
@@ -1530,13 +1532,25 @@ header ul li:hover .menu-option{
 .counseling-services-containt-wrap{
   max-width: 675px;
 }
+.counseling-services-list-section ul li svg{
+  position: relative;
+  top: 5px;
+}
+.counseling-services-list-section .hand-phone0{
+  max-width: 310px;
+}
+.counseling-services-list-section .book-btob-containt-wrap ul {
+  margin-top: 30px;
+}
 /* Counseling Services end */
+/* about-btob-section start */
 .about-btob-section-ico-box{
   width: 50px;
   height: 50px;
   background-color: #F1FAFF;
   border-radius: 100%;
   margin-right: 20px;
+  transition: all 0.3s;
 }
 .about-btob-section-col h5{
   font-weight: 600;
@@ -1554,6 +1568,14 @@ header ul li:hover .menu-option{
   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.06);
   border-radius: 10px;
   width: max-content;
+  border: 1px solid transparent;
+  transition: all 0.3s;
+}
+.about-btob-section-col:hover{
+  border-color: var(--primary-color);
+}
+.about-btob-section-col:hover .about-btob-section-ico-box{
+  background: #c6dce9;
 }
 .btob-line-img{
   position: absolute;
@@ -1561,3 +1583,24 @@ header ul li:hover .menu-option{
   top: 0;
   transform: translateX(-160px);
 }
+/* about-btob-section end */
+/* judicial-support-inner-0-section start */
+.judicial-support-section .heading-small-title{
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 54px;
+  max-width: 1000px;
+}
+.judicial-support-inner-0-section{
+  background-color: transparent;
+}
+.judicial-support-inner-1-section .judicial-support-col{
+  background-color: var(--white-color);
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.06);
+  padding: 50px 30px;
+  border: 1px solid transparent;
+}
+.judicial-support-inner-1-section .judicial-support-col:hover{
+  border-color: var(--primary-color);
+}
+/* judicial-support-inner-0-section end */
