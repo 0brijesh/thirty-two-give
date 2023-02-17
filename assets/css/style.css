@@ -1433,3 +1433,11 @@ header ul li:hover .menu-option{
   top: 4px;
 }
 /* our-company-section end */
+/* fight-social section start */
+.fight-social-grid{
+  grid-gap: 97px;
+}
+.fight-social-containt-wrap{
+  max-width: 555px;
+}
+/* fight-social section end */
