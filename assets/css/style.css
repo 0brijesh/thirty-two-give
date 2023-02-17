@@ -1094,6 +1094,9 @@ footer .menu-social-options-list {
   color: var(--accent-color0);
   margin-bottom: 17px;
 }
+.footer-col h5 a{
+  color: var(--accent-color0);
+}
 .footer-col h6 {
   font-weight: 400;
   font-size: 18px;
@@ -1108,6 +1111,7 @@ footer .menu-social-options-list {
   font-size: 14px;
   color: var(--accent-color0);
 }
+
 footer .list-style-dot {
   padding-left: 20px;
 }
@@ -1441,3 +1445,89 @@ header ul li:hover .menu-option{
   max-width: 555px;
 }
 /* fight-social section end */
+/* Academia section start */
+.academia-head-wrap{
+  width: 250px;
+}
+.academia-containt-wrap{
+  width: calc(100% - 250px);
+  padding-left: 100px;
+}
+.academia-list-box{
+  background: var(--white-color);
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  padding: 20px 30px;
+  border-top: 3px solid;
+  margin-top: 20px;
+}
+.academia-list-box.orange-border{
+  border-color: var(--secondary-color);
+}
+.academia-list-box.blue-border{
+  border-color: var(--primary-color);
+}
+.academia-line-img{
+  margin-top: 50px;
+}
+.academia-containt-wrap p{
+  font-size: 18px;
+  line-height: 36px;
+}
+.academia-list-box p{
+  font-size: 14px;
+  line-height: 30px;
+  color: var(--accent-color0);
+}
+/* Academia section end */
+/* judicial-support-section start */
+/* judicial-support-section start */
+.judicial-support-section{
+  background-color: var(--light-prime--primary-color);
+  padding: 60px 12px;
+}
+.judicial-support-section .heading-label-p{
+  max-width: 840px;
+}
+.judicial-support-grid{
+  margin-top: 95px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 100px;
+}
+.judicial-support-ico-box{
+  width: 60px;
+  height: 60px;
+  background: var(--primary-gradiant-color);
+  box-shadow: 0px 5px 10px rgba(67, 157, 239, 0.2);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.judicial-support-col{
+  padding: 15px;
+  border-radius: 15px;
+  height: 100%;
+  transition: all 0.3s;
+}
+.judicial-support-col:hover{
+  background-color: var(--white-color);
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.06);
+}
+.judicial-support-col h5{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: var(--accent-color0);
+  margin-bottom: 16px;
+}
+.judicial-support-col p{
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+/* judicial-support-section end */
+/* Counseling Services start */
+.counseling-services-containt-wrap{
+  max-width: 675px;
+}
+/* Counseling Services end */
