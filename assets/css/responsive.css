@@ -136,10 +136,16 @@
   .counseling-services-containt-wrap {
     max-width: 600px;
   }
+  .academia-line-0-img {
+    transform: translateX(-60px);
+  }
 }
 @media (max-width: 1439px){
   .hero-img{
     max-width: 600px;
+  }
+  .academia-line-0-img {
+    transform: translateX(-150px);
   }
 }
 @media (max-width: 1365px) {
@@ -151,6 +157,9 @@
   }
   .subscribe-vector-line, .hero-img {
     max-width: 500px;
+  }
+  .academia-section .fight-social-containt-wrap {
+    max-width: 600px;
   }
 }
 @media (max-width: 1199px) {
@@ -280,6 +289,13 @@
   .fight-social-isolation-1-section .counseling-services-containt-wrap, .counseling-services-containt-wrap  {
     max-width: 500px;
   }
+  .academia-section .fight-social-containt-wrap {
+    max-width: 500px;
+  }
+  .academia-line-0-img {
+    transform: translateX(-150px);
+    max-width: 400px;
+  }
 }
 @media (max-width: 991px) {
   header ul li a {
@@ -381,8 +397,14 @@
   .fight-social-isolation-1-section .counseling-services-img-wrap h6{
     transform: unset;
   }
-  .fight-social-isolation-1-section .counseling-services-containt-wrap,.counseling-services-containt-wrap{
+  .fight-social-isolation-1-section .counseling-services-containt-wrap,.counseling-services-containt-wrap,.academia-details-box,.academia-section .fight-social-containt-wrap{
     max-width: 100%;
+  }
+  .academia-line-0-img{
+    display: none;
+  }
+  .academia-img-0{
+    max-width: 300px;
   }
 }
 @media (max-width: 767px) {
@@ -636,7 +658,7 @@
     font-size:18px;
     line-height: inherit;
   }
-  .published-acknowledgements-box {
+  .published-acknowledgements-box,.academia-details-box {
     padding: 15px;
   }
   .judicial-support-col,.judicial-support-inner-1-section .judicial-support-col{
