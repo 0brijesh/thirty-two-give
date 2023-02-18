@@ -62,8 +62,13 @@
     top: 0;
   }
   .in-the-news-wrap {
-    padding-left: 115px;
+    padding-left: 170px;
   }
+}
+@media (max-width: 1699px){
+  .in-the-news-wrap {
+   padding-left: 110px;
+}
 }
 @media (max-width: 1679px){
    .in-the-news-wrap {
@@ -139,6 +144,9 @@
   .academia-line-0-img {
     transform: translateX(-60px);
   }
+  .contact-us-details-wrap {
+    max-width: 600px;
+  }
 }
 @media (max-width: 1439px){
   .hero-img{
@@ -186,7 +194,7 @@
     font-size: 35px;
   }
   .heading-title.big-heading-title{
-    font-size: 45px;
+    font-size: 40px;
   }
   .heading-label-p {
     font-size: 16px;
@@ -423,6 +431,13 @@
   .mentoring-tips-containt p{
     font-size: 16px;
   }
+  footer .menu-social-options-list {
+    margin-top: 30px;
+    justify-content: center;
+  }
+  footer > .container > .row > div:first-child{
+    text-align: center;
+  }
 }
 @media (max-width: 767px) {
   header,
@@ -500,15 +515,14 @@
   .faq-section .accordion-header {
     padding: 26px 0;
   }
-  footer .menu-social-options-list {
-    grid-gap: 40px;
-    margin-top: 30px;
-  }
   .sub-footer {
     margin-top: 20px;
   }
   .footer-col h5 {
     margin-bottom: 25px;
+  }
+  footer .menu-social-options-list {
+    grid-gap: 40px;
   }
   .contact-us-details-wrap h2{
     margin-bottom: 20px;
