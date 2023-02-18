@@ -161,6 +161,9 @@
   .academia-section .fight-social-containt-wrap {
     max-width: 600px;
   }
+  :root{
+    --mentoring-tips-img-box: 250px;
+  }
 }
 @media (max-width: 1199px) {
   header ul li a {
@@ -188,7 +191,7 @@
   .heading-label-p {
     font-size: 16px;
   }
-  .primary-btn {
+  .primary-btn,.subscribe-section button,.mentoring-tips-containt button {
     min-width: 160px;
     padding: 7px 10px;
     font-size: 16px;
@@ -406,6 +409,20 @@
   .academia-img-0{
     max-width: 300px;
   }
+  :root{
+    --mentoring-tips-img-box: 200px;
+  }
+  .mentoring-tips-containt{
+    padding-left: 20px;
+  }
+  .mentoring-tips-containt h3{
+    font-size: 24px;
+    line-height: inherit;
+    margin-bottom: 5px;
+  }
+  .mentoring-tips-containt p{
+    font-size: 16px;
+  }
 }
 @media (max-width: 767px) {
   header,
@@ -429,7 +446,7 @@
   p,
   .business-solution-box h5,
   .review-swiper .swiper-slide p,
-  .faq-section .accordion-body p {
+  .faq-section .accordion-body p,.mentoring-tips-containt p {
     font-size: 14px;
   }
   .faq-section .accordion-body p {
@@ -496,7 +513,7 @@
   .contact-us-details-wrap h2{
     margin-bottom: 20px;
   }
-  .in-the-news-head,.in-the-news-slider-wrap,.organizations-containt {
+  .in-the-news-head,.in-the-news-slider-wrap,.organizations-containt,.mentoring-tips-containt{
     width: 100%;
   }
     .in-the-news-slider-wrap,.organizations-containt {
@@ -527,6 +544,18 @@
   }
   .judicial-support-grid {
     margin-top: 40px;
+  }
+  .mentoring-tips-containt{
+    padding-left: 0;
+  }
+  :root {
+    --mentoring-tips-img-box: 100%;
+  }
+  .mentoring-tips-img-box{
+    border-radius: 15px;
+  }
+  .mentoring-tips-box{
+    margin-top: 30px;
   }
 }
 @media (max-width: 575px) {
@@ -563,7 +592,7 @@
     font-size: 16px;
     line-height: inherit;
   }
-  .primary-btn {
+  .primary-btn,.subscribe-section button,.mentoring-tips-containt button {
     min-width: 110px;
     font-size: 14px;
     padding: 7px 15px;
@@ -613,7 +642,7 @@
     border-radius: 6px;
     min-height: 45px;
   }
-  .privacy-terms-data h3 {
+  .privacy-terms-data h3,.mentoring-tips-containt h3 {
     font-size: 20px;
   }
   .privacy-terms-data h5{

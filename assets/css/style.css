@@ -108,6 +108,8 @@
   --section-mid-spacing: 70px;
   /* header-less-spacing: */
   --header-less-spacing: 100px;
+  /* mentoring-tips-img-box */
+  --mentoring-tips-img-box: 300px;
 }
 /* :root end */
 /* default css start */
@@ -1714,13 +1716,13 @@ header ul li:hover .menu-option{
   border-color: var(--primary-color);
 }
 .mentoring-tips-img-box{
-  width: 300px;
-  height: 300px;
+  width: var(--mentoring-tips-img-box);
+  height: var(--mentoring-tips-img-box);
   border-radius: 20px;
   overflow: hidden;
 }
 .mentoring-tips-containt{
-  width: calc(100% - 300px);
+  width: calc(100% - var(--mentoring-tips-img-box));
   padding-left: 36px;
 }
 .mentoring-tips-containt h3{
@@ -1735,5 +1737,8 @@ header ul li:hover .menu-option{
   font-size: 18px;
   line-height: 30px;
   color:var(--text-color);
+}
+.mentoring-tips-containt button{
+  min-width: 172px;
 }
 /* Mentoring Tips end */
