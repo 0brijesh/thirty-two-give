@@ -1700,3 +1700,40 @@ header ul li:hover .menu-option{
   transform: translateX(40px);
 }
 /* academia-details end */
+/* Mentoring Tips start */
+.mentoring-tips-box{
+  margin-top: 65px;
+  background: var(--white-color);
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+  padding: 20px;
+  border: 1px solid transparent;
+  transition: all 0.3s;
+}
+.mentoring-tips-box:hover{
+  border-color: var(--primary-color);
+}
+.mentoring-tips-img-box{
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.mentoring-tips-containt{
+  width: calc(100% - 300px);
+  padding-left: 36px;
+}
+.mentoring-tips-containt h3{
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 42px;
+  color: var(--accent-color0);
+  margin-bottom: 16px;
+}
+.mentoring-tips-containt p{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color:var(--text-color);
+}
+/* Mentoring Tips end */
