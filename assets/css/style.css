@@ -563,6 +563,9 @@ label sup.star {
 .heading-text-color{
   color: var(--accent-color0);
 }
+.max-w-max-content{
+  max-width: max-content !important;
+}
 /* default css end */
 /* header-0 css start */
 .header-0-section {
@@ -1755,8 +1758,9 @@ header ul li:hover .menu-option{
 .mentoring-tips-containt button{
   min-width: 172px;
 }
-.article-links-flex{
-  grid-gap: 50px;
+.article-links-box-wrap{
+  max-width: 1000px;
+  margin-top: 150px;
 }
 .article-links-box{
   background-color: var(--white-color);
@@ -1764,8 +1768,6 @@ header ul li:hover .menu-option{
   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.06);
   border-radius: 16px;
   padding: 0 40px 40px;
-  max-width: 1000px;
-  margin-top: 150px;
 }
 .article-links-img{
   width: 150px;
@@ -1790,6 +1792,8 @@ header ul li:hover .menu-option{
 }
 .other-article-links{
   margin-top: 150px;
+  padding-left: 50px;
+  max-width: calc(100% - 1000px);
 }
 .other-article-links h2{
   font-size: 24px;
@@ -1803,7 +1807,7 @@ header ul li:hover .menu-option{
 .other-article-links ul li{
   list-style: disc;
 }
-.other-article-links ul li a{ 
+.other-article-links ul li > a{ 
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
@@ -1811,5 +1815,91 @@ header ul li:hover .menu-option{
 }
 .other-article-links ul li:not(:last-child){
   margin-bottom: 37px;
+}
+.references-box ul{
+  margin-top: 22px;
+}
+ul.references-box li{
+  margin-bottom: 30px;
+}
+.references-box li:hover a{
+  color: var(--primary-color) !important;
+}
+.references-box li h6{
+  font-size: 20px;
+  line-height: 25px;
+  color: var(--accent-color0);
+  margin-bottom: 8px;
+}
+.references-box li a{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #364046;
+}
+.references-img-box{
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  border-radius: 7px;
+  transition: all 0.3s;
+}
+.references-content-box{
+  width: calc(100% - 80px);
+  padding-left: 20px;
+}
+.references-img-box:hover a{
+  color: var(--primary-color);
+}
+.article-links-main-section .article-links-box:not(:last-child){
+  margin-bottom: 150px;
+}
+.latest-blog-section .search-bar {
+  margin-top: 35px;
+}
+.search-bar input{
+  padding: 7px 46px 7px 16px;
+}
+.search-ico{
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+}
+.recent-post-wrap li a{
+  font-weight: 500;
+  font-size: 20px;  
+  color: var(--accent-color0);
+}
+ul.category-list li > a{
+  color: rgba(4, 16, 24, 0.8);
+}
+.latest-blog-section ul.category-list li:not(:last-child) {
+  margin-bottom: 16px;
+}
+.latest-blog-section .other-article-links{
+  max-width: 100%;
+}
+.latest-blog-section{
+  padding-top: 70px;
+}
+.hero-innrer-section.blog-details-section{
+  background: transparent;
+  min-height: 250px;
+}
+.blog-details-section .heading-title.big-heading-title{
+  font-size: 40px;
+}
+.blog-details-section small{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: rgba(14, 9, 57, 0.7);
+}
+.latest-blog-details-section .b-desc-text{
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #041018;
 }
 /* Mentoring Tips end */
