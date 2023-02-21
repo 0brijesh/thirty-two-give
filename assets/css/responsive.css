@@ -64,6 +64,9 @@
   .in-the-news-wrap {
     padding-left: 170px;
   }
+  .article-links-box{
+    max-width: 875px;
+  }
 }
 @media (max-width: 1699px){
   .in-the-news-wrap {
@@ -147,6 +150,9 @@
   .contact-us-details-wrap {
     max-width: 600px;
   }
+  .btob-line-img {
+    transform: translateX(-100px);
+}
 }
 @media (max-width: 1439px){
   .hero-img{
@@ -155,6 +161,12 @@
   .academia-line-0-img {
     transform: translateX(-150px);
   }
+  .about-btob-containt-section {
+    grid-gap: 0 20px;
+}
+.btob-line-img {
+  transform: translateX(-50px);
+}
 }
 @media (max-width: 1365px) {
   :root {
@@ -171,6 +183,15 @@
   }
   :root{
     --mentoring-tips-img-box: 250px;
+  }
+  .btob-line-img {
+    transform: translateX(-30px);
+  }
+  .judicial-support-col{
+    padding: 15px;
+  }
+  .article-links-box{
+    max-width: 750px;
   }
 }
 @media (max-width: 1199px) {
@@ -307,6 +328,31 @@
     transform: translateX(-150px);
     max-width: 400px;
   }
+  .btob-line-img{
+    display: none;
+  }
+  .fight-social-containt-wrap {
+    max-width: 425px;
+}
+.fight-social-grid {
+  grid-gap: 37px;
+}
+.academia-containt-wrap {
+  padding-left: 40px;
+}
+.about-btob-section-col{
+  padding: 18px;
+}
+.about-btob-section-col h5 {
+  font-size: 16px;
+  line-height: inherit;
+}
+  .about-btob-section-ico-box{
+    margin-right: 10px;
+  }
+  .other-article-links {
+    margin-top: 70px;
+  }
 }
 @media (max-width: 991px) {
   header ul li a {
@@ -368,7 +414,7 @@
   .footer-list-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  .subscribe-vector-line, .hero-img,.contact-us-details-wrap,.contact-us-form-wrap {
+  .subscribe-vector-line, .hero-img,.contact-us-details-wrap,.contact-us-form-wrap,.fight-social-containt-wrap {
     max-width: 100%;
   }
   .hero-innrer-section {
@@ -411,7 +457,7 @@
   .fight-social-isolation-1-section .counseling-services-containt-wrap,.counseling-services-containt-wrap,.academia-details-box,.academia-section .fight-social-containt-wrap{
     max-width: 100%;
   }
-  .academia-line-0-img{
+  .academia-line-0-img,.academia-line-img{
     display: none;
   }
   .academia-img-0{
@@ -428,6 +474,10 @@
     line-height: inherit;
     margin-bottom: 5px;
   }
+  .article-links-box h2{
+    font-size: 24px;
+    line-height: inherit;
+  }
   .mentoring-tips-containt p{
     font-size: 16px;
   }
@@ -437,6 +487,17 @@
   }
   footer > .container > .row > div:first-child{
     text-align: center;
+  }
+  .academia-containt-wrap{
+    width: 100%;
+    padding-left: 0;
+  }
+  .about-btob-section-col{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .about-btob-containt-section{
+    margin-top: 0;
   }
 }
 @media (max-width: 767px) {
@@ -461,10 +522,10 @@
   p,
   .business-solution-box h5,
   .review-swiper .swiper-slide p,
-  .faq-section .accordion-body p,.mentoring-tips-containt p {
+  .faq-section .accordion-body p,.mentoring-tips-containt p,.academia-containt-wrap p {
     font-size: 14px;
   }
-  .faq-section .accordion-body p {
+  .faq-section .accordion-body p,.academia-containt-wrap p {
     line-height: inherit;
   }
   .platform-benefits-grid {
@@ -571,6 +632,28 @@
   .mentoring-tips-box{
     margin-top: 30px;
   }
+  .academia-list-box{
+    padding: 15px;
+  }
+  .other-article-links{
+    margin-top: 50px;
+  }
+  .article-links-box{
+    padding: 0 30px 30px;
+    margin-top: 100px;
+  }
+  .article-links-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    margin-top: -50px;
+  }
+  .other-article-links ul li:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .other-article-links ul{
+    margin-top: 20px;
+  }
 }
 @media (max-width: 575px) {
   .header-0-section {
@@ -656,7 +739,7 @@
     border-radius: 6px;
     min-height: 45px;
   }
-  .privacy-terms-data h3,.mentoring-tips-containt h3 {
+  .privacy-terms-data h3,.mentoring-tips-containt h3,.article-links-box h2,.other-article-links h2 {
     font-size: 20px;
   }
   .privacy-terms-data h5{
@@ -678,7 +761,7 @@
   .organizations-containt h3{
     font-size: 18px;
   }
-  .organizations-list-grid .organizations-col span,.published-acknowledgements-box p{
+  .organizations-list-grid .organizations-col span,.published-acknowledgements-box p,.article-links-box p,.other-article-links ul li a{
     font-size: 14px;
   }
   .organizations-box {

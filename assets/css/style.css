@@ -158,6 +158,9 @@ a:hover {
 .hover-txt-blue {
   transition: all 0.3s;
 }
+.hover-txt-blue:hover{
+  color: var(--primary-color) !important;
+}
 a:focus {
   box-shadow: none;
 }
@@ -543,7 +546,7 @@ label sup.star {
 .text-decoration-underline-ani:hover::after {
   background-color: var(--accent-color0);
 }
-.light-prime-primary-color-bg {
+.light-prime-primary-color-bg,.blog-mentoring-tips-section {
   background-color: var(--light-prime--primary-color);
 }
 .heading-label-p {
@@ -1270,6 +1273,8 @@ header ul li:hover .menu-option{
 }
 .privacy-terms-data .contact-us-details-wrap ul li svg{
   margin-right: 20px;
+  position: relative;
+  top: 0;
 }
 /* privacy-terms end */
 /* in-the-news start */
@@ -1554,6 +1559,8 @@ header ul li:hover .menu-option{
 /* Counseling Services end */
 /* about-btob-section start */
 .about-btob-section-ico-box{
+  min-width: 50px;
+  min-height: 50px;
   width: 50px;
   height: 50px;
   background-color: #F1FAFF;
@@ -1747,5 +1754,62 @@ header ul li:hover .menu-option{
 }
 .mentoring-tips-containt button{
   min-width: 172px;
+}
+.article-links-flex{
+  grid-gap: 50px;
+}
+.article-links-box{
+  background-color: var(--white-color);
+  border: 1px solid rgba(4, 16, 24, 0.1);
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+  padding: 0 40px 40px;
+  max-width: 1000px;
+  margin-top: 150px;
+}
+.article-links-img{
+  width: 150px;
+  height: 150px;
+  filter: drop-shadow(0px 4px 40px rgba(0, 0, 0, 0.16));
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: -80px;
+}
+.article-links-box h2{
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 42px;
+  color: var(--accent-color0);
+  margin: 24px 0 16px;
+}
+.article-links-box p{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--text-color);
+}
+.other-article-links{
+  margin-top: 150px;
+}
+.other-article-links h2{
+  font-size: 24px;
+  padding-bottom: 16px;
+  border-bottom:  1px solid rgba(4, 16, 24, 0.1);;
+}
+.other-article-links ul{
+  margin-top: 36px;
+  padding-left: 25px;
+}
+.other-article-links ul li{
+  list-style: disc;
+}
+.other-article-links ul li a{ 
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--black-color);
+}
+.other-article-links ul li:not(:last-child){
+  margin-bottom: 37px;
 }
 /* Mentoring Tips end */
